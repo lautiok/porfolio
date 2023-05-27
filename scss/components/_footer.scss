@@ -1,0 +1,19 @@
+footer{
+    @include flex (row, nowrap, space-around, center);
+    padding-top: 200px;
+    .logo-footer{
+        img {
+            height: 150px;
+        }
+    }
+    .social {
+        a {
+            padding: 10px;
+            i{
+                color: #acacac;
+                font-size: 20px;
+            }
+            
+        }
+    }
+}

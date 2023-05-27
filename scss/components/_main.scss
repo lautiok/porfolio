@@ -1,0 +1,253 @@
+main {
+    .hero {
+        @include flex(row, nowrap, space-evenly, center);
+        margin-top: 200px;
+        .info{
+            padding-left: 300px;
+            padding-right: 100px;
+            h2 {
+                color: #ffffff;
+                font-size: 50px;
+                span {
+                    color: $colorprincipal;
+                }
+            }
+            p {
+                color: #acacac;
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+            .social {
+                a {
+                    padding: 10px;
+                    i{
+                        color: #acacac;
+                        font-size: 20px;
+                    }
+                    
+                }
+            }
+        }
+        .info-foto {
+            margin-right: 300px;
+            img {
+                height: 500px;
+                width: auto;
+                border-radius: 40%;
+            }
+        }
+    }
+    .flecha{
+        @include flex (row, nowrap, center, center);
+        margin-top: 100px;
+        margin-bottom: 70px;
+        i{
+            color: #acacac;
+        }
+    }
+    .abbz {
+        margin-top: 50px;
+        .abb{
+        @include flex (row, nowrap, center, center);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #acacac;
+        padding-bottom: 70px;
+            span{
+                color: $colorprincipal;
+            }
+        }
+    }
+    .about {
+        @include flex (row-reverse, nowrap, space-around, center);
+        .me-about {
+            @include flex (column, nowrap, center, center);
+            padding-left: 140px;
+            padding-right: 140px;
+            h2 {
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 40px;
+            }
+            p {
+                color: #acacac;
+                text-align: center;
+            }
+        }
+        .me-about-foto {
+            padding-left: 300px;
+            img{
+                height: 400px;
+                width: 400px;
+                border-radius: 20px;
+            }
+        }
+    }
+    .proyect {
+        @include flex (row, wrap, space-evenly, center);
+        padding: 10px;
+        .servicios-card {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            background-color: #616161;
+            img {
+                margin-top: 25px;
+                border-radius: 10px;
+                width: 350px;
+                height: 200px;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 50px;
+                color: #ffffff
+            }
+            a {
+                i{
+                    color: #acacac;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .introduccion {
+        @include flex (column, nowrap, center, center);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        h2{
+            color: #ffffff;
+            margin-bottom: 40px;
+        }
+        p{
+            color: #acacac;
+            padding-right: 150px;
+            padding-left: 150px;
+            text-align: center;
+        }
+    }
+    .proyect-b {
+        @include flex (row, wrap, space-evenly, center);
+        .servicios-card {
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            background-color: #616161;
+            margin-bottom: 20px;
+            img {
+                margin-top: 25px;
+                border-radius: 10px;
+                width: 350px;
+                height: 200px;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 20px;
+                margin-bottom: 50px;
+                color: #ffffff
+            }
+            a {
+                i{
+                    color: #acacac;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .informacion-lenguajes{
+        @include flex (column, nowrap, center, center);
+        margin-top: 50px;
+        h2{
+            color: #ffffff;
+        }
+        .logos-l {
+            @include flex (row, wrap, space-around, center);
+            margin-top: 50px;
+            a{
+                padding: 60px;
+            }
+            .html {
+                img{
+                    width: 100px;
+                    height: auto;
+                }
+            }
+            .css {
+                img{
+                    width: 70px;
+                    height: auto;
+                }
+            }
+            .js {
+                img{
+                    width: 140px;
+                    height: auto;
+                }
+            }
+            .reat{
+                img{
+                    width: 90px;
+                    height: auto;
+                }
+            }
+            .sql{
+                img{
+                    width: 120px;
+                    height: auto;
+                }
+            }
+            .git {
+                img {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+    }
+    .informacion-contacto{
+        @include flex ( column, nowrap, center, center);
+        background-color: #acacac;
+        padding: 60px;
+        margin-left: 700px;
+        margin-right: 700px;
+        margin-top: 200px;
+        border-radius: 40%;
+        .informacion-contacto-text{
+            margin-top: 50px;
+            h2 { 
+                color: #ffffff;
+                text-align: center;
+            }
+            .correo{
+                margin-top: 50px;
+                margin-bottom: 40px;
+                h3 {
+                    color: #ffffff;
+                    text-align: center;
+                }
+                p{
+                    color: #616161;
+                    text-align: center;
+                }
+            }
+            .numero-tel{
+                margin-bottom: 50px;
+                h3 {
+                    color: #ffffff;
+                    text-align: center;
+                }    
+                p{
+                    color: #616161;
+                    text-align: center;
+                }
+            }
+        }
+        .social-c {
+            i{
+                color: #ffffff;
+                font-size: 20px;
+            }
+        }
+    }
+}

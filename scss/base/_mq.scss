@@ -1,0 +1,142 @@
+@media screen and (max-width: 1573px) {
+    main{
+        .hero{
+            flex-direction: column-reverse;
+            margin-top: 50px;
+            .info{
+                padding: 10px;
+                h2 {
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                .social {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .info-foto {
+                margin: 0;
+                img {
+                    height: 300px;
+                    border-radius: 60%;
+                }
+            }
+        }
+        .about{
+            flex-direction: column;
+            justify-content: center;
+            .me-about{
+                padding: 30px;
+            }
+            .me-about-foto{
+                padding-left: 0;
+                margin-top: 50px;
+            }
+        }
+        .informacion-lenguajes{
+            .logo-l{
+                a{
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    header{
+        justify-content: space-between;
+        .button {
+            display: block;
+            margin-right: 20px;
+        }
+        .nav {
+            width: 100%;
+            display: none;
+            opacity: 0;
+            height: 0vh;
+            pointer-events: none;
+            overflow: hidden;
+            transition: all .5s ease;
+            @include flex(row, nowrap, center, center);
+            .ul {
+                @include flex( column, wrap , center, center );
+                .li{
+                    margin: 1em 0;
+                }
+            } 
+            &.activo {
+                display: flex;
+                opacity: 1;
+                height: 50vh;
+                pointer-events: auto;
+            }
+            .cv{
+                display: none;
+            }
+        }
+    }
+    main {
+        .informacion-contacto{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #acacac;
+            padding: 60px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 200px;
+            border-radius: 40%;
+            .informacion-contacto-text{
+                margin-top: 50px;
+                h2 { 
+                    color: #ffffff;
+                    text-align: center;
+                }
+                .correo{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                    h3 {
+                        color: #ffffff;
+                        text-align: center;
+                    }
+                    p{
+                        color: #616161;
+                        text-align: center;
+                    }
+                }
+                .numero-tel{
+                    margin-bottom: 50px;
+                    h3 {
+                        color: #ffffff;
+                        text-align: center;
+                    }    
+                    p{
+                        color: #616161;
+                        text-align: center;
+                    }
+                }
+            }
+            .social-c {
+                i{
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        .introduccion {
+            p {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+}

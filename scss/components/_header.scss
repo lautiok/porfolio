@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    padding: 1rem;
+    @include flex( row , wrap , space-around, center );
+    .logo{
+        a {
+        color: #ffff;
+        font-size: 15px;
+        span {
+            color: $colorprincipal;
+            font-size: 17px;
+        }
+    }
+    }
+    .button{
+        display: none;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        .svg {
+            width: 2em;
+            height: 2em;
+            fill: $colorprincipal;
+        }
+    }
+    .nav {
+        @include flex (row, nowrap, center, center);
+        .ul{
+            @include flex( row , wrap , flex-end , center );
+            .li{
+                margin: 0;
+                padding: 0;
+                transition: 0.4s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                a{
+                    color: #bebebe;
+                    padding: 20px;
+                    transition: 0.5s;
+                    span {
+                        color: $colorprincipal;
+                    }
+                    &:hover {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+        .cv{
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px;
+            border-radius: 3px;
+            margin-left: 30px;
+        }
+    }
+}
