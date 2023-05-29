@@ -1,5 +1,9 @@
 header {
-    width: 100%;
+    background-color: #252525;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 50px;
     padding: 1rem;
     @include flex( row , wrap , space-around, center );
     .logo{

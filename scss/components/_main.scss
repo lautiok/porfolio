@@ -31,15 +31,14 @@ main {
         .info-foto {
             margin-right: 300px;
             img {
-                height: 500px;
+                height: 400px;
                 width: auto;
-                border-radius: 40%;
             }
         }
     }
     .flecha{
         @include flex (row, nowrap, center, center);
-        margin-top: 100px;
+        margin-top: 200px;
         margin-bottom: 70px;
         i{
             color: #acacac;

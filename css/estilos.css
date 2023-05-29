@@ -13,7 +13,11 @@ body {
   font-family: 'Roboto Mono', monospace; }
 
 header {
-  width: 100%;
+  background-color: #252525;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border-radius: 50px;
   padding: 1rem;
   display: flex;
   flex-flow: row wrap;
@@ -23,7 +27,7 @@ header {
     color: #ffff;
     font-size: 15px; }
     header .logo a span {
-      color: #00db87;
+      color: #b4875c;
       font-size: 17px; }
   header .button {
     display: none;
@@ -33,7 +37,7 @@ header {
     header .button .svg {
       width: 2em;
       height: 2em;
-      fill: #00db87; }
+      fill: #b4875c; }
   header .nav {
     display: flex;
     flex-flow: row nowrap;
@@ -55,7 +59,7 @@ header {
           padding: 20px;
           transition: 0.5s; }
           header .nav .ul .li a span {
-            color: #00db87; }
+            color: #b4875c; }
           header .nav .ul .li a:hover {
             color: #ffffff; }
     header .nav .cv {
@@ -81,7 +85,7 @@ main .hero {
       color: #ffffff;
       font-size: 50px; }
       main .hero .info h2 span {
-        color: #00db87; }
+        color: #b4875c; }
     main .hero .info p {
       color: #acacac;
       font-size: 15px;
@@ -94,16 +98,15 @@ main .hero {
   main .hero .info-foto {
     margin-right: 300px; }
     main .hero .info-foto img {
-      height: 500px;
-      width: auto;
-      border-radius: 40%; }
+      height: 400px;
+      width: auto; }
 
 main .flecha {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 70px; }
   main .flecha i {
     color: #acacac; }
@@ -121,7 +124,7 @@ main .abbz {
     color: #acacac;
     padding-bottom: 70px; }
     main .abbz .abb span {
-      color: #00db87; }
+      color: #b4875c; }
 
 main .about {
   display: flex;
