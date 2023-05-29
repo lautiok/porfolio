@@ -63,7 +63,10 @@ header {
       color: #000000;
       padding: 10px;
       border-radius: 3px;
-      margin-left: 30px; }
+      margin-left: 30px;
+      transition: 0.5s; }
+      header .nav .cv:hover {
+        transform: scale(1.2); }
 
 main .hero {
   display: flex;
@@ -291,7 +294,10 @@ footer {
   align-items: center;
   padding-top: 200px; }
   footer .logo-footer img {
-    height: 150px; }
+    height: 150px;
+    transition: 0.5s; }
+    footer .logo-footer img:hover {
+      transform: scale(1.2); }
   footer .social a {
     padding: 10px; }
     footer .social a i {

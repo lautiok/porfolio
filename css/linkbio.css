@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,600&display=swap');
+/*-reset-*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*pagina*/
+
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    height: 70px;
+    width: auto;
+    margin-left: 20px;
+}
+header .redes-sociales {
+    margin-right: 20px;
+    font-size: 20px;
+}
+header .redes-sociales a {
+    color:#ffffff
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main img {
+    height: 140px;
+    width: auto;
+    margin-bottom: 20px;
+
+}
+main h1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main p {
+    color: #cacaca;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main .botton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+}
+main .botton a {
+    background-color: #fffc4b;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
+
+main .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .contacto i {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+main .contacto h2 {
+    font-size: 15px;
+    color: #cacaca;
+}
+
