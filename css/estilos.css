@@ -334,6 +334,9 @@ footer {
     main .about .me-about-foto {
       padding-left: 0;
       margin-top: 50px; }
+      main .about .me-about-foto img {
+        height: 300px;
+        width: auto; }
   main .informacion-lenguajes .logo-l a {
     padding: 0; } }
 

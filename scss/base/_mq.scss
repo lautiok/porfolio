@@ -1,57 +1,75 @@
 @media screen and (max-width: 1573px) {
-    main{
-        .hero{
+    main {
+        .hero {
             flex-direction: column-reverse;
             margin-top: 50px;
-            .info{
+
+            .info {
                 padding: 10px;
+
                 h2 {
                     text-align: center;
                 }
-                p{
+
+                p {
                     text-align: center;
                 }
+
                 .social {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
             }
+
             .info-foto {
                 margin: 0;
+
                 img {
                     height: 300px;
                     border-radius: 60%;
                 }
             }
         }
-        .about{
+
+        .about {
             flex-direction: column;
             justify-content: center;
-            .me-about{
+
+            .me-about {
                 padding: 30px;
             }
-            .me-about-foto{
+
+            .me-about-foto {
                 padding-left: 0;
                 margin-top: 50px;
+
+                img {
+                    height: 300px;
+                    width: auto;
+                }
             }
         }
-        .informacion-lenguajes{
-            .logo-l{
-                a{
+
+        .informacion-lenguajes {
+            .logo-l {
+                a {
                     padding: 0;
                 }
             }
         }
     }
 }
+
 @media screen and (max-width: 1000px) {
-    header{
+    header {
         justify-content: space-between;
+
         .button {
             display: block;
             margin-right: 20px;
         }
+
         .nav {
             width: 100%;
             display: none;
@@ -61,25 +79,30 @@
             overflow: hidden;
             transition: all .5s ease;
             @include flex(row, nowrap, center, center);
+
             .ul {
-                @include flex( column, wrap , center, center );
-                .li{
+                @include flex(column, wrap, center, center);
+
+                .li {
                     margin: 1em 0;
                 }
-            } 
+            }
+
             &.activo {
                 display: flex;
                 opacity: 1;
                 height: 50vh;
                 pointer-events: auto;
             }
-            .cv{
+
+            .cv {
                 display: none;
             }
         }
     }
+
     main {
-        .informacion-contacto{
+        .informacion-contacto {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -90,38 +113,47 @@
             margin-right: 30px;
             margin-top: 200px;
             border-radius: 40%;
-            .informacion-contacto-text{
+
+            .informacion-contacto-text {
                 margin-top: 50px;
-                h2 { 
+
+                h2 {
                     color: #ffffff;
                     text-align: center;
                 }
-                .correo{
+
+                .correo {
                     margin-top: 50px;
                     margin-bottom: 40px;
+
                     h3 {
                         color: #ffffff;
                         text-align: center;
                     }
-                    p{
+
+                    p {
                         color: #616161;
                         text-align: center;
                     }
                 }
-                .numero-tel{
+
+                .numero-tel {
                     margin-bottom: 50px;
+
                     h3 {
                         color: #ffffff;
                         text-align: center;
-                    }    
-                    p{
+                    }
+
+                    p {
                         color: #616161;
                         text-align: center;
                     }
                 }
             }
+
             .social-c {
-                i{
+                i {
                     color: #ffffff;
                     font-size: 20px;
                 }
