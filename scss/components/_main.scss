@@ -134,6 +134,7 @@ main {
             height: 400px;
             background-color: #616161;
             margin-bottom: 20px;
+            transition: 0.5s;
             img {
                 margin-top: 25px;
                 border-radius: 10px;
@@ -170,82 +171,86 @@ main {
                 img{
                     width: 100px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .css {
                 img{
                     width: 70px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .js {
                 img{
                     width: 140px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .reat{
                 img{
                     width: 90px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .sql{
                 img{
                     width: 120px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .git {
                 img {
                     width: 100px;
                     height: auto;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
         }
     }
-    .informacion-contacto{
-        @include flex ( column, nowrap, center, center);
-        background-color: #acacac;
-        padding: 60px;
-        margin-left: 700px;
-        margin-right: 700px;
-        margin-top: 200px;
-        border-radius: 40%;
-        .informacion-contacto-text{
-            margin-top: 50px;
-            h2 { 
+    .about-me {
+        @include flex (row, nowrap, space-around,center);
+        .inf-about {
+            margin-right: 15rem;
+            h2{
                 color: #ffffff;
                 text-align: center;
+                margin-bottom: 20px;
             }
-            .correo{
-                margin-top: 50px;
-                margin-bottom: 40px;
-                h3 {
-                    color: #ffffff;
-                    text-align: center;
-                }
-                p{
-                    color: #616161;
-                    text-align: center;
-                }
-            }
-            .numero-tel{
-                margin-bottom: 50px;
-                h3 {
-                    color: #ffffff;
-                    text-align: center;
-                }    
-                p{
-                    color: #616161;
-                    text-align: center;
-                }
+            p {
+                color: #acacac;
+                text-align: center;
+                margin-right: 10rem;
+                margin-left: 10rem;
             }
         }
-        .social-c {
-            i{
-                color: #ffffff;
-                font-size: 20px;
+        .foto-about{
+            margin-right: 15rem;
+            margin-top: 7rem;
+            img{
+                height: 400px;
+                width: auto;
             }
         }
     }
