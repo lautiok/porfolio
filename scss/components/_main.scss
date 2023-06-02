@@ -88,14 +88,14 @@ main {
         padding: 10px;
         .servicios-card {
             text-align: center;
-            width: 400px;
-            height: 400px;
+            padding: 1rem;
             background-color: #616161;
+            border-radius: 1rem;
             img {
                 margin-top: 25px;
                 border-radius: 10px;
                 width: 350px;
-                height: 200px;
+                height: auto;
                 margin-bottom: 20px;
             }
             h3 {
@@ -130,21 +130,21 @@ main {
         @include flex (row, wrap, space-evenly, center);
         .servicios-card {
             text-align: center;
-            width: 400px;
-            height: 400px;
+            padding: 1rem;
+            border-radius: 1rem;
             background-color: #616161;
             margin-bottom: 20px;
             transition: 0.5s;
             img {
-                margin-top: 25px;
+                margin-top: 0.5rem;
                 border-radius: 10px;
                 width: 350px;
-                height: 200px;
-                margin-bottom: 20px;
+                height: auto;
+                margin-bottom: 0.5rem;
             }
             h3 {
                 font-size: 20px;
-                margin-bottom: 50px;
+                margin-bottom: 15px;
                 color: #ffffff
             }
             a {

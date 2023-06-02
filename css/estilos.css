@@ -160,14 +160,14 @@ main .proyect {
   padding: 10px; }
   main .proyect .servicios-card {
     text-align: center;
-    width: 400px;
-    height: 400px;
-    background-color: #616161; }
+    padding: 1rem;
+    background-color: #616161;
+    border-radius: 1rem; }
     main .proyect .servicios-card img {
       margin-top: 25px;
       border-radius: 10px;
       width: 350px;
-      height: 200px;
+      height: auto;
       margin-bottom: 20px; }
     main .proyect .servicios-card h3 {
       font-size: 20px;
@@ -200,20 +200,20 @@ main .proyect-b {
   align-items: center; }
   main .proyect-b .servicios-card {
     text-align: center;
-    width: 400px;
-    height: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
     background-color: #616161;
     margin-bottom: 20px;
     transition: 0.5s; }
     main .proyect-b .servicios-card img {
-      margin-top: 25px;
+      margin-top: 0.5rem;
       border-radius: 10px;
       width: 350px;
-      height: 200px;
-      margin-bottom: 20px; }
+      height: auto;
+      margin-bottom: 0.5rem; }
     main .proyect-b .servicios-card h3 {
       font-size: 20px;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       color: #ffffff; }
     main .proyect-b .servicios-card a i {
       color: #acacac;
