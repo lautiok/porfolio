@@ -1,8 +1,0 @@
-$colorprincipal:  #b4875c;
-
-@mixin flex($dir,$wrap,$just,$align){
-    display: flex;
-    flex-flow: $dir $wrap;
-    justify-content: $just;
-    align-items: $align;
-}
