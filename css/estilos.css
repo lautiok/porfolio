@@ -94,7 +94,11 @@ main .hero {
       padding: 10px; }
       main .hero .info .social a i {
         color: #acacac;
-        font-size: 20px; }
+        font-size: 20px; 
+        transition: 0.1s;}
+      main .hero .info .social a i:hover {
+        color: #ffffff;
+      }
   main .hero .info-foto {
     margin-right: 300px; }
     main .hero .info-foto img {
@@ -175,7 +179,11 @@ main .proyect {
       color: #ffffff; }
     main .proyect .servicios-card a i {
       color: #acacac;
-      font-size: 30px; }
+      font-size: 30px;
+    transition: 0.2s;}
+  main .proyect .servicios-card a i:hover {
+    color: #ffffff;
+  }
 
 main .introduccion {
   display: flex;
@@ -217,7 +225,11 @@ main .proyect-b {
       color: #ffffff; }
     main .proyect-b .servicios-card a i {
       color: #acacac;
-      font-size: 30px; }
+      font-size: 30px; 
+      transition: 0.2s;}
+    main .proyect-b .servicios-card a i:hover {
+      color: #ffffff;
+    }
 
 main .informacion-lenguajes {
   display: flex;
@@ -448,7 +460,11 @@ footer {
     padding: 10px; }
     footer .social a i {
       color: #acacac;
-      font-size: 20px; }
+      font-size: 20px;
+      transition: 0.2s; }
+    footer .social a i:hover {
+      color: #ffffff;
+    }
 
 @media screen and (max-width: 1573px) {
   main .hero {
