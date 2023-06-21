@@ -166,7 +166,8 @@ main .proyect {
     text-align: center;
     padding: 1rem;
     background-color: #616161;
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    margin-bottom: 20px;}
     main .proyect .servicios-card img {
       margin-top: 25px;
       border-radius: 10px;
@@ -238,7 +239,8 @@ main .informacion-lenguajes {
   align-items: center;
   margin-top: 50px; }
   main .informacion-lenguajes h2 {
-    color: #ffffff; }
+    color: #ffffff;
+    text-align: center;}
   main .informacion-lenguajes .logos-l {
     display: flex;
     flex-flow: row wrap;
