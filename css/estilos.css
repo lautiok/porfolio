@@ -529,12 +529,12 @@ footer {
 @media screen and (max-width: 600px) {
   main .introduccion p {
     padding-right: 10px;
-    padding-left: 10px; } }
-    .certificados .desarrollo-web img {
-      width: 500px;
+    padding-left: 10px; } 
+  main .certificados .desarrollo-web img {
+      width: 400px;
       height: auto;
-      transition: none;
+      transition: 1.2s;
     }
-    .certificados .desarrollo-web img:hover {
-      transform: none;
-    }
+  main .certificados .desarrollo-web img:hover {
+      transform: scale(1.1);
+    } }
