@@ -294,6 +294,31 @@ main .about-me {
     main .about-me .foto-about img {
       height: 400px;
       width: auto; }
+      .certificados{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+      }
+      .certificados h2{
+        color: #ffffff;
+      }
+      .certificados .desarrollo-web {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 4rem;
+      }
+      .certificados .desarrollo-web img {
+        width: 600px;
+        height: auto;
+        transition: 1.2s;
+      }
+      .certificados .desarrollo-web img:hover {
+        transform: scale(1.2);
+      }
       .formulario-contact {
         margin-top: 10rem;
     }
@@ -308,6 +333,7 @@ main .about-me {
         margin-bottom: 1rem;
         text-align: center;
         font-size: 3em;
+        color: #ffffff;
     }
     
     main .h-contet span {
@@ -504,3 +530,11 @@ footer {
   main .introduccion p {
     padding-right: 10px;
     padding-left: 10px; } }
+    .certificados .desarrollo-web img {
+      width: 500px;
+      height: auto;
+      transition: none;
+    }
+    .certificados .desarrollo-web img:hover {
+      transform: none;
+    }
