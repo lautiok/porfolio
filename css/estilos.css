@@ -137,8 +137,8 @@ main .flecha {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
-  margin-bottom: 70px;
+  padding-top: 240px;
+  padding-bottom: 80px;
 }
 main .flecha i {
   color: #acacac;
@@ -676,6 +676,9 @@ footer .social a i:hover {
   }
   main .certificados img:hover {
     transform: none;
+  }
+  main .flecha {
+    display: none;
   }
 }
 
