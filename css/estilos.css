@@ -711,3 +711,8 @@ footer .social a i:hover {
     padding-left: 10px;
   }
 }
+@media screen and (max-width: 412px) {
+  .menv{
+    font-size: 10px;
+  }
+}
