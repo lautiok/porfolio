@@ -381,6 +381,11 @@ main .about-me .foto-about img {
   height: 400px;
   width: auto;
 }
+main .pdf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .certificados {
   display: flex;
   flex-direction: column;
@@ -507,7 +512,25 @@ main .contact-info h4,
   margin: 0 0 1rem 0;
   color: #ffffff;
 }
-
+.menv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+.menv img{
+  width: 400px;
+  height: auto;
+}
+.menv a{
+  background-color: #b4875c;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
 /* LARGE SIZE */
 @media (min-width: 700px) {
   body {

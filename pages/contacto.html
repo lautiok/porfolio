@@ -70,10 +70,10 @@
                 <div class="contact-wrapper animated bounceInUp">
                     <div class="contact-form">
                         <h3>write to us</h3>
-                        <form action="">
+                        <form id="myForm" action="https://formsubmit.co/nahuelguerra56b@gmail.com" method="POST">
                             <p>
                                 <label>name and surname</label>
-                                <input type="text" name="fullname">
+                                <input type="text" name="name">
                             </p>
                             <p>
                                 <label>email</label>
@@ -92,9 +92,11 @@
                                 <textarea name="message" rows="3"></textarea>
                             </p>
                             <p class="block">
-                                <button>
+                                <button type="submit">
                                     send
                                 </button>
+                                <input type="hidden" name="_next" value="https://nahuelguerra.com.ar/pages/contacto.html">
+                                <input type="hidden" name="_captcha" value="false">
                             </p>
                         </form>
                     </div>
