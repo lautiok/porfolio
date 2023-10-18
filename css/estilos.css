@@ -713,6 +713,12 @@ footer .social a i:hover {
   main .informacion-lenguajes .logo-l a {
     padding: 0;
   }
+  .info-foto {
+    display: none;
+  }
+  .info {
+    margin-top: 10rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
