@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0.804359243697479) 100%) ,url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    margin-bottom: 4.5rem;
+}
+.header-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.img-link img { 
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+}
+.info-link h1 {
+    color: #ffffff;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Noto Sans', sans-serif;
+}
+.info-link p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'noto sans', sans-serif;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.main-link .botones-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-link .botones-link a {
+    padding: 2rem 10%;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 2rem;
+    font-size: 1em;
+    font-family: 'Roboto Mono', monospace;
+}
+.main-link .botones-link  .boton-tres {
+    padding: 2rem 9.6%;
+    
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.footer-link p{
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+.footer-link h2 {
+    color: #ffffff;
+    font-family: 'noto sans', sans-serif;
+    font-size: 1rem;
+}
+.redes-link a {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+    .main-link .botones-link  .boton-tres {
+        padding: 2rem 7.9%;
+        
+    }
+  }
