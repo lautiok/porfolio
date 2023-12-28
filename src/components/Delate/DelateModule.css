@@ -1,0 +1,72 @@
+.proyect-delate {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.servicios-card-delate {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #616161;
+    margin-bottom: 4rem;
+    transition: 0.5s;
+    position: relative;
+}
+
+.servicios-card-delate .image-container-delate {
+    position: relative;
+    text-align: center;
+}
+
+.servicios-card-delate .image-container-delate img {
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin-bottom: 0.5rem;
+    transition: filter 0.5s;
+    position: relative;
+    filter: brightness(0.2);
+}
+
+.servicios-card-delate .image-container-delate .icons-container-delate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-delate {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.servicios-card-delate h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+
+
+.servicios-card-delate:hover .image-container-delate .icons-container-delate i {
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .proyect-delate {
+        margin: 0;
+    }
+}

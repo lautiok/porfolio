@@ -1,0 +1,53 @@
+ .about-me {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .about-me .inf-about {
+     margin-right: 15rem;
+ }
+
+ .about-me .inf-about h2 {
+     color: #ffffff;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .about-me .inf-about p {
+     color: #acacac;
+     text-align: center;
+     margin-right: 10rem;
+     margin-left: 10rem;
+ }
+
+ .about-me .foto-about {
+     margin-right: 15rem;
+     margin-top: 7rem;
+ }
+
+ .about-me .foto-about img {
+     height: 400px;
+     width: auto;
+ }
+
+ @media screen and (max-width: 1000px) {
+     .about-me {
+         flex-direction: column;
+         margin-top: 2rem;
+     }
+
+     .about-me .inf-about {
+         margin: 0;
+     }
+
+     .about-me .inf-about p {
+         margin: 2px;
+     }
+
+     .about-me .foto-about {
+         margin: 0;
+         margin-top: 2rem;
+     }
+ }

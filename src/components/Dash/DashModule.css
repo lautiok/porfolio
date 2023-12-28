@@ -1,0 +1,59 @@
+.dash {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* Puedes ajustar esto según sea necesario */
+    margin-top: 1rem;
+}
+
+
+.dash-module-container {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 6rem;
+}
+
+
+.dash-module-container h2 {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.dash-module {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-proyect {
+    width: 400px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    background-color: rgba(217, 217, 217, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.input-proyect::placeholder {
+    color: white;
+}
+
+.btn-proyect {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background-color: #B4875C;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

@@ -1,0 +1,19 @@
+ .abbz {
+     margin-top: 50px;
+ }
+
+ .abbz .abb {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #acacac;
+     padding-bottom: 70px;
+ }
+
+ .abbz .abb span {
+     color: #b4875c;
+ }

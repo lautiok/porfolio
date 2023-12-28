@@ -1,0 +1,78 @@
+.proyect {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicios-card {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #616161;
+    margin-bottom: 4rem;
+    transition: 0.5s;
+    position: relative;
+}
+
+.servicios-card .image-container {
+    position: relative;
+    text-align: center;
+}
+
+.servicios-card .image-container img {
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    margin-bottom: 0.5rem;
+    transition: filter 0.5s;
+    position: relative;
+}
+
+.servicios-card .image-container .icons-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicios-card .image-container i {
+    font-size: 27px;
+    color: #ffffff;
+    transition: 0.2s;
+    opacity: 0;
+    display: inline-block;
+    padding: .4rem;
+}
+
+.servicios-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.servicios-card a i {
+    color: #acacac;
+    font-size: 30px;
+    transition: 0.2s;
+    padding: .2rem;
+}
+
+.servicios-card a i:hover {
+    color: #ffffff;
+}
+
+.servicios-card:hover .image-container img {
+    filter: brightness(0.2);
+}
+
+.servicios-card:hover .image-container .icons-container i {
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .proyect {
+        margin: 0;
+    }
+}

@@ -1,0 +1,84 @@
+ .informacion-lenguajes {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .informacion-lenguajes h2 {
+     color: #ffffff;
+     text-align: center;
+ }
+
+ .informacion-lenguajes .logos-l {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .informacion-lenguajes .logos-l a {
+     padding: 60px;
+ }
+
+ .informacion-lenguajes .logos-l .html img {
+     width: 100px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .html img:hover {
+     transform: scale(1.2);
+ }
+
+ .informacion-lenguajes .logos-l .css img {
+     width: 70px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .css img:hover {
+     transform: scale(1.2);
+ }
+
+ .informacion-lenguajes .logos-l .js img {
+     width: 140px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .js img:hover {
+     transform: scale(1.2);
+ }
+
+ .informacion-lenguajes .logos-l .reat img {
+     width: 90px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .reat img:hover {
+     transform: scale(1.2);
+ }
+
+ .informacion-lenguajes .logos-l .sql img {
+     width: 120px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .sql img:hover {
+     transform: scale(1.2);
+ }
+
+ .informacion-lenguajes .logos-l .git img {
+     width: 100px;
+     height: auto;
+     transition: 0.5s;
+ }
+
+ .informacion-lenguajes .logos-l .git img:hover {
+     transform: scale(1.2);
+ }

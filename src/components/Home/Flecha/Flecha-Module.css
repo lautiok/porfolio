@@ -1,0 +1,18 @@
+ .flecha {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
+     padding-top: 240px;
+     padding-bottom: 80px;
+ }
+
+ .flecha i {
+     color: #acacac;
+ }
+
+ @media screen and (max-width: 1000px) {
+     .flecha {
+         display: none;
+     }
+ }

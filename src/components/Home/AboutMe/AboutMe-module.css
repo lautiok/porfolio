@@ -1,0 +1,58 @@
+ .about {
+     display: flex;
+     flex-flow: row-reverse nowrap;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .about .me-about {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+     padding-left: 120px;
+     padding-right: 140px;
+ }
+
+ .about .me-about h2 {
+     text-align: center;
+     color: #ffffff;
+     margin-bottom: 40px;
+ }
+
+ .about .me-about p {
+     color: #acacac;
+     text-align: center;
+ }
+
+ .about .me-about-foto {
+     padding-left: 200px;
+ }
+
+ .about .me-about-foto img {
+     height: 350px;
+     width: 350px;
+     border-radius: 20%;
+ }
+
+ @media screen and (max-width: 1573px) {
+
+     .about {
+         flex-direction: column;
+         justify-content: center;
+     }
+
+     .about .me-about {
+         padding: 30px;
+     }
+
+     .about .me-about-foto {
+         padding-left: 0;
+         margin-top: 50px;
+     }
+
+     .about .me-about-foto img {
+         height: 300px;
+         width: auto;
+     }
+ }
