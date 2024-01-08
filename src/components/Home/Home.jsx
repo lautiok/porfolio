@@ -4,6 +4,7 @@ import { Flecha } from './Flecha/Flecha'
 import { Seccion } from './Seccion/Seccion'
 import { AboutMe } from './AboutMe/AboutMe'
 import { CardProjects } from './CardProjects/CardProjects'
+import { Kill } from '../Portfolio/Kill/Kill'
 import { Sembrador } from '../../utils/Sembrador/Sembrador'
 
 
@@ -19,6 +20,7 @@ export const Home = () => {
             <AboutMe />
             <Seccion name="Projects" />
             <CardProjects />
+            <Kill />
         </>
     )
 }

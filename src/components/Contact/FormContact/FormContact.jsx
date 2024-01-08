@@ -55,14 +55,10 @@ export const FormContact = () => {
                                 Argentina
                             </li>
                             <li>
-                                <i className="fas fa-phone"></i> 1136620274{' '}
-                            </li>
-                            <li>
                                 <i className="fas fa-envelope-open-text"></i>{' '}
                                 contact@nahuelguerra.com.ar
                             </li>
                         </ul>
-                        <p>nahuelguerra.com.ar</p>
                     </div>
                 </div>
             </div>

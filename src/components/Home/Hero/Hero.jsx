@@ -23,14 +23,8 @@ export const Hero = () => {
                 </h2>
                 <p id="typewriter">{typewriterText}</p>
                 <div className="social">
-                    <a href="https://www.instagram.com/laauti.ok/" target="_blank">
-                        <i className="bi bi-instagram"></i>
-                    </a>
                     <a href="https://github.com/lautiok" target="_blank">
                         <i className="bi bi-github"></i>
-                    </a>
-                    <a href="https://twitter.com/laautiiokk" target="_blank">
-                        <i className="bi bi-twitter"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/nahuel-guerra-002479229/" target="_blank">
                         <i className="bi bi-linkedin"></i>

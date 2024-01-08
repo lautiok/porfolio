@@ -19,7 +19,7 @@ export const CardProjects = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     const handleClick = () => {
-        setNumProductsToShow(prevNum => prevNum + 3);
+        setNumProductsToShow(prevNum => prevNum + 4);
     };
 
     const fetchProjects = async () => {

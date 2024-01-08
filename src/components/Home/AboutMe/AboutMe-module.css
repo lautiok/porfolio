@@ -23,6 +23,8 @@
  .about .me-about p {
      color: #acacac;
      text-align: center;
+     margin-left: 12rem;
+     margin-right: 12rem;
  }
 
  .about .me-about-foto {

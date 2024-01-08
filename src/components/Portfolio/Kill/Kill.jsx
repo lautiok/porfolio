@@ -6,11 +6,12 @@ import js from '../../../assets/js.png'
 import react from '../../../assets/react.png'
 import sql from '../../../assets/sql.png'
 import git from '../../../assets/gitpng.png'
+import { Seccion } from '../../Home/Seccion/Seccion'
 
 export const Kill = () => {
     return (
         <section data-aos="fade-up" className="informacion-lenguajes">
-            <h2>Technical Skills</h2>
+            <Seccion name="Technologies" />
             <div className="logos-l animate__animated animate__bounce animate__backInUp">
                 <a className="html" href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noreferrer"><img src={html} alt="html" /></a>
                 <a className="css" href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noreferrer"><img src={css} alt="css" /></a>
