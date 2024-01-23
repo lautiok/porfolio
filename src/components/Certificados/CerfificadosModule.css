@@ -46,3 +46,27 @@
     width: 600px;
     border-radius: 8px;
 }
+
+@media screen and (max-width: 1087px) {
+    .certificadov1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .certificado .certimg {
+        margin-top: 2rem;
+    }
+
+    .certificado .certinfo p {
+        margin-bottom: 1rem;
+        ;
+    }
+}
+
+@media screen and (max-width: 697px) {
+    .certificado .certimg a img {
+        width: 100%;
+    }
+}

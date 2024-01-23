@@ -8,7 +8,6 @@ import './CerfificadosModule.css';
 export const Certificado = () => {
     return (
         <section className='certificado'>
-            <h2>Certificates</h2>
 
             <div className='certificadov1'>
                 <div className='certinfo'>
