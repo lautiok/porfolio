@@ -6,6 +6,7 @@ import { Footer } from './components/Footer/Footer';
 import { Portfolio } from './components/Portfolio/Portfolio';
 import { Contact } from './components/Contact/Contact';
 import { Login } from './components/Login/Login';
+import { Certificado } from './components/Certificados/Certificado';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/porfolio" element={<Portfolio />} />
         <Route path='/aboutme' element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/certificates" element={<Certificado />} />
       </Routes>
       <Footer />
     </Router>

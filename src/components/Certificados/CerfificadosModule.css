@@ -1,0 +1,48 @@
+.certificado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.certificadov1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5rem;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.certificadov1:hover {
+    transform: scale(1.02);
+}
+
+.certificado .certinfo h2,
+.certificado .certinfo h3,
+.certificado .certinfo h4 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.certificado .certinfo .date {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.certificado .certinfo .text {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.certificado .certinfo p {
+    color: #acacac;
+}
+
+.certificado .certimg a img {
+    width: 600px;
+    border-radius: 8px;
+}

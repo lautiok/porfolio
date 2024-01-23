@@ -28,6 +28,7 @@ export const Header = () => {
                     <li className="li"><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
                     <li className="li"><NavLink to="/porfolio" onClick={handleLinkClick}>Porfolio</NavLink></li>
                     <li className="li"><NavLink to="/aboutme" onClick={handleLinkClick}>About me</NavLink></li>
+                    <li className="li"><NavLink to="/certificates" onClick={handleLinkClick}>certificates</NavLink></li>
                 </ul>
                 <a className="cv" href="https://drive.google.com/file/d/1V4el4Yf3rD2_Fvj_ltp9ZETAIA9D9i-Y/view?usp=share_link" target="_blank">my curriculum</a>
             </nav>
