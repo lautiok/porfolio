@@ -58,3 +58,10 @@
          width: auto;
      }
  }
+
+ @media screen and (max-width: 500px) {
+     .about .me-about p {
+         margin-left: 0;
+         margin-right: 0;
+     }
+ }
