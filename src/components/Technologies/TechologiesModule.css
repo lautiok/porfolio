@@ -1,0 +1,124 @@
+.technologies-container {
+    margin-left: 34rem;
+}
+
+.technologies-title {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.content-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-right: 30rem;
+}
+
+.technologies {
+    flex: 0 0 calc(21% - 1.7rem);
+    /* 25% para que haya 4 cuadrados por fila, ajusta según necesites */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    /* Espacio entre filas */
+    border: solid 2px #4A5568;
+    border-radius: 10px;
+}
+
+.technologies img {
+    width: auto;
+    height: 70px;
+    /* Ajusta la altura según necesites */
+    margin-bottom: 1rem;
+    /* Espacio entre la imagen y el texto */
+}
+
+@media screen and (max-width: 1728px) {
+    .technologies-container {
+        margin-left: 25rem;
+    }
+
+    .content-technologies {
+        margin-right: 18rem;
+    }
+
+    .technologies {
+        flex: 0 0 calc(25% - 1.7rem);
+        padding: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .technologies-container {
+        margin-left: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .technologies-container {
+        margin-left: 1rem;
+    }
+
+    .content-technologies {
+        margin-right: 1rem;
+    }
+
+    .technologies {
+        flex: 0 0 calc(40% - 1.7rem);
+        padding: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .technologies img {
+        height: 50px;
+        /* Ajusta la altura según necesites */
+        margin-bottom: 1rem;
+        /* Espacio entre la imagen y el texto */
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .technologies-container {
+        margin-left: 1rem;
+    }
+
+    .content-technologies {}
+
+    .technologies {
+        flex: 0 0 calc(50% - 1.7rem);
+        padding: 1rem;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .technologies img {
+        height: 50px;
+        /* Ajusta la altura aquí necesites */
+        margin-bottom: 1rem;
+        /* Espacio entre la imagen y el texto */
+
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .technologies {
+        flex: 0 0 calc(60% - 1.7rem);
+        padding: 1rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "navbar" : {
+        "experience" : "Experience",
+        "projects" : "Projects",
+        "technologies" : "Technologies",
+        "contact" : "Contact"
+    },
+    "hero" : {
+        "status" : "Available for work",
+        "hey im" : "Hey, I'm Nahuel Guerra",
+        "my experience" : "+3 years of experience in the software development sector. from Argentina, Buenos Aires. specialized in frontend and backend."
+    },
+    "experience" : {
+        "title" : " Work Experience",
+        "button" : "more",
+        "radioipm" : {
+            "title" : "Radio IPM",
+            "category" : "Full Stack Developer",
+            "year" : "May 2017",
+            "description": "I led the website design on WordPress, optimized the code for greater efficiency and speed, implemented SEO strategies, and developed a custom radio player"
+        },
+        "carlosaimar" : {
+            "title" : "Carlos Aimar",
+            "category" : " Web developer",
+            "year" : "septembre 2022",
+            "description": "In charge of online communication strategies social media content management, and web development to enhance institutional presence"
+        },
+        "hermanosluci" : {
+            "title" : "Hermanos Luci",
+            "category" : "Full Stack Developer",
+            "year" : "May 2023",
+            "description" : "I led the web development and SEO, optimizing the site performance and creating an interactive travel application with ReactJS"
+        }
+    },
+    "projects" : {
+        "title" : "Projects",
+        "ipm": {
+            "title" : "Web cafeteria",
+            "technologies": "Git - JavaScript - ReactJS, Api Rest",
+            "description" : "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks"
+        },
+        "eco": {
+            "title" : "Ecommerce whatsapp",
+            "technologies": "Git - JavaScript - ReactJS - Firebase",
+            "description" : "Development of a whatsapp ecommerce app with firebase, for the health of clients and suppliers. It integrates with whatsapp for order management"
+        },
+        "button": {
+            "git" : "GitHub",
+            "live" : "Live"
+        }
+    },
+    "technologies" : {
+        "title" : "Technologies"
+    },
+    "contact" : {
+        "title" : "Contact",
+        "button" : "send"
+    }
+}

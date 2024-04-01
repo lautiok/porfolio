@@ -1,0 +1,145 @@
+header {
+    background-color: #252525d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 40px;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(30% - 2rem);
+    /* Utiliza el 100% del ancho disponible, con un margen de 1rem a cada lado */
+    max-width: 1200px;
+    /* Establece un ancho máximo para evitar que la barra de navegación sea demasiado ancha en pantallas grandes */
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    /* Quita los puntos de lista */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    /* Quita el subrayado predeterminado de los enlaces */
+    padding: 0.5rem 1rem;
+    /* Añade espacio alrededor del texto para hacerlo más fácil de hacer clic en dispositivos táctiles */
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media screen and (max-width: 1619px) {
+    header {
+        width: calc(40% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    header {
+        width: calc(35% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 0;
+        /* Reduce el espacio alrededor del texto en pantallas más pequeñas */
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: calc(45% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 0;
+        /* Reduce el espacio alrededor del texto en pantallas más pequeñas */
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+    header {
+        width: calc(50% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 0;
+        /* Reduce el espacio alrededor del texto en pantallas más pequeñas */
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: calc(55% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+
+    }
+
+    nav ul li a {
+        padding: 0.5rem 0;
+        /* Reduce el espacio alrededor del texto en pantallas más pequeñas */
+    }
+
+}
+
+@media screen and (max-width: 707px) {
+    header {
+        width: calc(70% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+
+    }
+}
+
+@media screen and (max-width: 539px) {
+    header {
+        width: calc(100% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+
+    }
+
+    nav ul li a {
+        font-size: 0.8rem;
+        ;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        width: calc(100% - 2rem);
+        /* Reduce el ancho de la barra de navegación en pantallas más pequeñas */
+        padding: 0.5rem 1rem;
+
+    }
+
+    nav ul li a {
+        font-size: 0.7rem;
+
+    }
+
+}

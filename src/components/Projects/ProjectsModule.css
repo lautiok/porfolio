@@ -1,0 +1,187 @@
+.project-container {
+    margin-left: 34rem;
+}
+
+.projects {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.projects h2 {
+    font-weight: 600;
+}
+
+.project-module {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-img {
+    margin-top: 2.5rem;
+}
+
+.project-img img {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.project-description {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+}
+
+.project-description h2 {
+    font-size: 1.5rem;
+    color: #B4875C;
+}
+
+.project-description p {
+    font-size: 0.8rem;
+    color: #ffffffb9;
+    margin-left: 0.5rem;
+}
+
+
+.project-description .description {
+    font-size: 1rem;
+    color: #ffffffb9;
+    margin-top: 1rem;
+    margin-right: 30rem;
+
+}
+
+
+.button-project {
+    margin-top: 1rem;
+}
+
+
+
+.button-project a {
+    color: #ffffffb9;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+@media screen and (max-width: 1728px) {
+    .project-container {
+        margin-left: 25rem;
+    }
+
+    .project-description .description {
+        font-size: 0.8rem;
+        color: #ffffffb9;
+        margin-top: 1rem;
+        margin-right: 18rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .project-container {
+        margin-left: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .project-container {
+        margin-left: 1rem;
+    }
+
+    .project-module {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-img img {
+        height: 250px;
+        width: auto;
+        border-radius: 20px;
+    }
+
+    .project-description {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .project-description h2 {
+        font-size: 1rem;
+    }
+
+    .project-description p {
+        font-size: 0.8rem;
+        color: #ffffffb9;
+        margin-left: 0.5rem;
+    }
+
+    .project-description .description {
+        font-size: 0.8rem;
+        color: #ffffffb9;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .project-container {
+        margin-left: 1rem;
+    }
+
+
+    .project-module {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-img img {
+        height: 250px;
+        width: auto;
+        border-radius: 20px;
+    }
+
+    .project-description {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    .project-description h2 {
+        font-size: 1rem;
+    }
+
+    .project-description p {
+        font-size: 0.8rem;
+        color: #ffffffb9;
+        margin-left: 0.5rem;
+    }
+
+    .project-description .description {
+        font-size: 0.8rem;
+        color: #ffffffb9;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .project-container {
+        margin-left: 0.5rem;
+    }
+
+    .project-img img {
+        height: 225px;
+    }
+
+    .project-description .description {
+        margin-right: 1rem;
+    }
+
+}
