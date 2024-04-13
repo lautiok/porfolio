@@ -34,7 +34,7 @@ export const Projects = () => {
                         <p className='description'>{t('projects.eco.description')}</p>
                         <div className='button-project'>
                             <a href="https://github.com/lautiok/proyecto-reactjs" target="_blank" rel="noreferrer" ><i class="bi bi-github"></i> {t('projects.button.git')}</a>
-                            <a href="https://ecommerce-whatsapp.netlify.app/" target="_blank" rel="noreferrer" ><i class="bi bi-link-45deg"></i> {t('projects.button.live')}</a>
+                            <a href="https://proyecto-reactjs-rouge.vercel.app/" target="_blank" rel="noreferrer" ><i class="bi bi-link-45deg"></i> {t('projects.button.live')}</a>
                         </div>
                     </div>
                 </div>
