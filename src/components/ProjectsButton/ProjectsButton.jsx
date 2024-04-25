@@ -44,8 +44,8 @@ export const ProjectsButton = () => {
         <div className='info-project-button'>
           <h2 onClick={() => handleCardClick('ipm')}>{t('projects.ipm.title')}</h2>
           <div className='button-g-p'>
-            <a href=''> <i className='bi bi-github'></i></a>
-            <a href=''> <i className='bi bi-link-45deg'></i></a>
+            <a href='https://github.com/lautiok/Ipm' target='_blank'> <i className='bi bi-github'></i></a>
+            <a href='https://institutoprivadodemerlo.vercel.app/' target='_blank' > <i className='bi bi-link-45deg'></i></a>
           </div>
         </div>
       </div>
@@ -56,8 +56,8 @@ export const ProjectsButton = () => {
         <div className='info-project-button'>
           <h2 onClick={() => handleCardClick('togo')}>{t('projects.togo.title')}</h2>
           <div className='button-g-p'>
-            <a href='https://github.com/lautiok/Ipm' target='_blank'> <i className='bi bi-github'></i></a>
-            <a href='https://institutoprivadodemerlo.vercel.app/' target='_blank'> <i className='bi bi-link-45deg'></i></a>
+            <a href='https://github.com/lautiok/togo'> <i className='bi bi-github'></i></a>
+            <a href='https://togo-hazel.vercel.app/'> <i className='bi bi-link-45deg'></i></a>
           </div>
         </div>
       </div>
