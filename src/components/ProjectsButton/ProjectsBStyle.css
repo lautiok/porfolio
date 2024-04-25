@@ -14,12 +14,12 @@
     margin-top: 2rem;
     background-color: #1e1e1e85; 
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .img {
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .img img {
@@ -42,6 +42,7 @@
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .button-g-p {
