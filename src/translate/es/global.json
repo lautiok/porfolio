@@ -34,7 +34,7 @@
     },
     "projects" : {
         "title" : "Proyectos",
-        "ipm": {
+        "coffe": {
             "title" : "Sitio web Cafeteria",
             "technologies": "Git - JavaScript - ReactJS - Api Rest",
             "description" : "Proyecto creado con react para cafetería, obteniendo una Api rest donde puedo visualizar el stock de bebidas."
@@ -43,6 +43,16 @@
             "title" : "Tienda online integrada con whatsapp",
             "technologies": "Git - JavaScript - ReactJS - Firebase",
             "description" : "Desarrollo de una aplicación web de comercio electronico con firebase, para la compra de clientes y proveedores. Se integra con whatsapp para la gestión de pedidos."
+        },
+        "ipm" : {
+            "title" : "IPM",
+            "technologies": "Git - JavaScript - ReactJS",
+            "description" : "Desarrollo de una estacion de radio, con la finalidad de promover la presencia de la institución en la red social"
+        },
+        "TOGO" : {
+            "title" : "Togo",
+            "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
+            "description" : "Desarrollo de un restaurante, con la finalidad de promover la presencia de la institución en la red social"
         },
         "button": {
             "git" : "GitHub",

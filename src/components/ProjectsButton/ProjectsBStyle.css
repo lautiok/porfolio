@@ -1,0 +1,119 @@
+.projects-button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-right: 32rem
+}
+
+.projects-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-top: 2rem;
+    background-color: #1e1e1e85; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+}
+
+.img img {
+    width: 210px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.info-project-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.info-project-button h2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.button-g-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.button-g-p a {
+    margin-right: 1rem;
+}
+
+.button-g-p i {
+    font-size: 1.5rem;
+    color: #a2a2a2;
+}
+
+@media screen and (max-width: 1280px) {
+    .projects-button-container {
+        margin-right: 18rem
+    }
+    
+    .img img {
+        width: 180px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    
+    .projects-button-container {
+        margin-right: 5rem
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .projects-button-container {
+        margin-right: 3rem
+    }
+
+    .img img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .projects-button-container {
+        margin-right: 1rem
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .projects-button-container {
+        margin-right: 0rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .info-project-button h2 {
+        font-size: 1rem;
+    }
+    
+    .img img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .button-g-p i {
+        font-size: 1.3rem;
+    }
+}

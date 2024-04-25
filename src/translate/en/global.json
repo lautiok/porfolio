@@ -34,7 +34,7 @@
     },
     "projects" : {
         "title" : "Projects",
-        "ipm": {
+        "coffe": {
             "title" : "Web cafeteria",
             "technologies": "Git - JavaScript - ReactJS, Api Rest",
             "description" : "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks"
@@ -43,6 +43,16 @@
             "title" : "Ecommerce whatsapp",
             "technologies": "Git - JavaScript - ReactJS - Firebase",
             "description" : "Development of a whatsapp ecommerce app with firebase, for the health of clients and suppliers. It integrates with whatsapp for order management"
+        },
+        "ipm" : {
+            "title" : "IPM",
+            "technologies": "Git - JavaScript - ReactJS",
+            "description" : "Web development of a radio station, with the objective of promoting the presence of the institution in the media"
+        },
+        "togo" : {
+            "title" : "TOGO",
+            "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
+            "description" : "Web development of a restaurant, with the objective of promoting the presence of the institution in the media" 
         },
         "button": {
             "git" : "GitHub",
