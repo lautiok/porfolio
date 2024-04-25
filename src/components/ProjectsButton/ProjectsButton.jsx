@@ -16,9 +16,7 @@ export const ProjectsButton = () => {
         handleCloseDetails();
       }
     };
-
     document.addEventListener('mousedown', handleClickOutside);
-
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
@@ -27,6 +25,7 @@ export const ProjectsButton = () => {
   const handleCardClick = (project) => {
     setSelectedProject(project);
     setShowDetails(true);
+  
   };
 
   const handleCloseDetails = () => {
@@ -61,8 +60,6 @@ export const ProjectsButton = () => {
           </div>
         </div>
       </div>
-
-      {/* Mostrar el modal si showDetails es true */}
       {showDetails && (
         <div className='modal-overlay'>
           <div className='modal' ref={modalRef}>
@@ -75,9 +72,12 @@ export const ProjectsButton = () => {
               <h2>{selectedProject === 'ipm' ? t('projects.ipm.title') : t('projects.togo.title')}</h2>
               <p>{selectedProject === 'ipm' ? t('projects.ipm.technologies') : t('projects.togo.technologies')}</p>
               <h3>{selectedProject === 'ipm' ? t('projects.ipm.description') : t('projects.togo.description')}</h3>
-            </div>  
+            <div className='button-g-p-modal'>
+              <a href={selectedProject === 'ipm' ? 'https://github.com/lautiok/Ipm' : 'https://github.com/lautiok/togo'} target='_blank'> <i className='bi bi-github'></i></a>
+              <a href={selectedProject === 'ipm' ? 'https://institutoprivadodemerlo.vercel.app/' : 'https://togo-hazel.vercel.app/'} target='_blank' > <i className='bi bi-link-45deg'></i></a>
             </div>
-            
+            </div>
+            </div>
           </div>
         </div>
       )}

@@ -61,6 +61,23 @@
     color: #a2a2a2;
 }
 
+.button-g-p-modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.button-g-p-modal a {
+    margin-right: 1rem;
+}
+
+.button-g-p-modal i {
+    font-size: 1.5rem;
+    color: #a2a2a2;
+}
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -85,6 +102,8 @@
     max-height: 80%;
     overflow-y: auto;
   }
+
+
 
   .modal-content {
     display: flex;
