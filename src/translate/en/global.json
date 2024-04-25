@@ -47,12 +47,12 @@
         "ipm" : {
             "title" : "IPM",
             "technologies": "Git - JavaScript - ReactJS",
-            "description" : "Web development of a radio station, with the objective of promoting the presence of the institution in the media"
+            "description" : "This project consists in the recreation of the https://www.ipmeducar.com.ar/. I have carried out the redesign of the site as part of a practical designed to put me in the development"
         },
         "togo" : {
             "title" : "TOGO",
             "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
-            "description" : "Web development of a restaurant, with the objective of promoting the presence of the institution in the media" 
+            "description" : "This project consists of a backend application for a task management application. It utilizes Express.js as the web server framework and MongoDB as the database. The application provides endpoints for user registration, login, logout, user profile, and CRUD (Create, Read, Update, Delete) operations on tasks." 
         },
         "button": {
             "git" : "GitHub",

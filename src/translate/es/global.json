@@ -46,13 +46,13 @@
         },
         "ipm" : {
             "title" : "IPM",
-            "technologies": "Git - JavaScript - ReactJS",
-            "description" : "Desarrollo de una estacion de radio, con la finalidad de promover la presencia de la institución en la red social"
+            "technologies": "Git - JavaScript - ReactJS - Bootstrap",
+            "description" : "Este proyecto consiste en la recreación del sitio web https://www.ipmeducar.com.ar/. He llevado a cabo el rediseño del sitio como parte de una práctica destinada a poner a prueba y mejorar mis habilidades técnicas como desarrollador Frontend. El Instituto Privado de Merlo es una institución educativa que abarca los niveles inicial, primario, secundario y terciario."
         },
-        "TOGO" : {
-            "title" : "Togo",
+        "togo" : {
+            "title" : "TOGO",
             "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
-            "description" : "Desarrollo de un restaurante, con la finalidad de promover la presencia de la institución en la red social"
+            "description" : "Este proyecto consta de una aplicación backend para una aplicación de gestión de tareas. Utiliza Express.js como marco del servidor web y MongoDB como base de datos. La aplicación proporciona puntos finales para operaciones de registro de usuario, inicio de sesión, cierre de sesión, perfil de usuario y CRUD (Crear, Leer, Actualizar, Eliminar) en tareas."
         },
         "button": {
             "git" : "GitHub",

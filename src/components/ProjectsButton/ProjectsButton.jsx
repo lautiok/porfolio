@@ -1,38 +1,86 @@
-import React from 'react'
-import './ProjectsBStyle.css'
-import ipm from '../../assets/projects/ipm.png'
-import togo from '../../assets/projects/togo.png'
-import { useTranslation } from 'react-i18next'
+import React, { useState, useRef, useEffect } from 'react';
+import './ProjectsBStyle.css';
+import ipm from '../../assets/projects/ipm.png';
+import togo from '../../assets/projects/togo.png';
+import { useTranslation } from 'react-i18next';
 
 export const ProjectsButton = () => {
-    const [t] = useTranslation('global')
+  const [t] = useTranslation('global');
+  const [showDetails, setShowDetails] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        handleCloseDetails();
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
+  const handleCardClick = (project) => {
+    setSelectedProject(project);
+    setShowDetails(true);
+  };
+
+  const handleCloseDetails = () => {
+    setShowDetails(false);
+    setSelectedProject(null);
+  };
+
   return (
     <div className='projects-button-container'>
-        <div className='projects-button'>
-            <div className='img'>
-                <img src={ipm} alt="ipm" />
-            </div>
+      {/* Renderizar las tarjetas */}
+      <div className='projects-button' onClick={() => handleCardClick('ipm')}>
+        <div className='img'>
+          <img src={ipm} alt='ipm' />
+        </div>
         <div className='info-project-button'>
-            <h2>{t('projects.ipm.title')}</h2>
-            <div className='button-g-p'>
-                <a href=""> <i className="bi bi-github"></i></a>
-                <a href=""> <i className="bi bi-link-45deg"></i></a>
-            </div>
+          <h2>{t('projects.ipm.title')}</h2>
+          <div className='button-g-p'>
+            <a href=''> <i className='bi bi-github'></i></a>
+            <a href=''> <i className='bi bi-link-45deg'></i></a>
+          </div>
         </div>
+      </div>
+      <div className='projects-button' onClick={() => handleCardClick('togo')}>
+        <div className='img'>
+          <img src={togo} alt='togo' />
         </div>
-        <div className='projects-button'>
-            <div className='img'>
-                <img src={togo} alt="ipm" />
-            </div>
         <div className='info-project-button'>
-            <h2>{t('projects.togo.title')}</h2>
-            <div className='button-g-p'>
-                <a href=""> <i className="bi bi-github"></i></a>
-                <a href=""> <i className="bi bi-link-45deg"></i></a>
+          <h2>{t('projects.togo.title')}</h2>
+          <div className='button-g-p'>
+            <a href=''> <i className='bi bi-github'></i></a>
+            <a href=''> <i className='bi bi-link-45deg'></i></a>
+          </div>
+        </div>
+      </div>
+
+      {/* Mostrar el modal si showDetails es true */}
+      {showDetails && (
+        <div className='modal-overlay'>
+          <div className='modal' ref={modalRef}>
+            <button className='close' onClick={handleCloseDetails}>Cerrar</button>
+            <div className='modal-content'>
+              <div className='img-modal'>
+              <img src={selectedProject === 'ipm' ? ipm : togo} alt={selectedProject === 'ipm' ? 'ipm' : 'togo'} />
             </div>
+            <div className='info-modal'>
+              <h2>{selectedProject === 'ipm' ? t('projects.ipm.title') : t('projects.togo.title')}</h2>
+              <p>{selectedProject === 'ipm' ? t('projects.ipm.technologies') : t('projects.togo.technologies')}</p>
+              <h3>{selectedProject === 'ipm' ? t('projects.ipm.description') : t('projects.togo.description')}</h3>
+            </div>  
+            </div>
+            
+          </div>
         </div>
-        </div>
+      )}
     </div>
-      
-  )
-}
+  );
+};
