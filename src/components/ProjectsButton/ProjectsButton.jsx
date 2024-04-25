@@ -37,24 +37,24 @@ export const ProjectsButton = () => {
   return (
     <div className='projects-button-container'>
       {/* Renderizar las tarjetas */}
-      <div className='projects-button' onClick={() => handleCardClick('ipm')}>
-        <div className='img'>
+      <div className='projects-button'>
+        <div className='img' onClick={() => handleCardClick('ipm')}>
           <img src={ipm} alt='ipm' />
         </div>
         <div className='info-project-button'>
-          <h2>{t('projects.ipm.title')}</h2>
+          <h2 onClick={() => handleCardClick('ipm')}>{t('projects.ipm.title')}</h2>
           <div className='button-g-p'>
             <a href=''> <i className='bi bi-github'></i></a>
             <a href=''> <i className='bi bi-link-45deg'></i></a>
           </div>
         </div>
       </div>
-      <div className='projects-button' onClick={() => handleCardClick('togo')}>
+      <div className='projects-button'>
         <div className='img'>
-          <img src={togo} alt='togo' />
+          <img src={togo} alt='togo' onClick={() => handleCardClick('togo')} />
         </div>
         <div className='info-project-button'>
-          <h2>{t('projects.togo.title')}</h2>
+          <h2 onClick={() => handleCardClick('togo')}>{t('projects.togo.title')}</h2>
           <div className='button-g-p'>
             <a href=''> <i className='bi bi-github'></i></a>
             <a href=''> <i className='bi bi-link-45deg'></i></a>
