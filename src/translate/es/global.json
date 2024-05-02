@@ -44,10 +44,10 @@
             "technologies": "Git - JavaScript - ReactJS - Firebase",
             "description" : "Desarrollo de una aplicación web de comercio electronico con firebase, para la compra de clientes y proveedores. Se integra con whatsapp para la gestión de pedidos."
         },
-        "ipm" : {
-            "title" : "IPM",
-            "technologies": "Git - JavaScript - ReactJS - Bootstrap",
-            "description" : "Este proyecto consiste en la recreación del sitio web https://www.ipmeducar.com.ar/. He llevado a cabo el rediseño del sitio como parte de una práctica destinada a poner a prueba y mejorar mis habilidades técnicas como desarrollador Frontend. El Instituto Privado de Merlo es una institución educativa que abarca los niveles inicial, primario, secundario y terciario."
+        "ecommerce" : {
+            "title" : "Ecommerce",
+            "technologies": "Git - ReactJS - React Router DOM - Axios - Express - MongoDB",
+            "description" : "La tienda en línea se construyó usando ReactJS para el frontend y Node.js con Express para el backend. Empleamos JWT para la seguridad de la autenticación y BcryptJS para la protección con contraseña. Usamos MongoDB con Mongoose para administrar la base de datos y Nodemailer para comunicarnos con los usuarios. Este enfoque nos permitió crear una plataforma de comercio electrónico eficiente y segura."
         },
         "togo" : {
             "title" : "TOGO",

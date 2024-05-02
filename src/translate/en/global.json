@@ -44,14 +44,14 @@
             "technologies": "Git - JavaScript - ReactJS - Firebase",
             "description" : "Development of a whatsapp ecommerce app with firebase, for the health of clients and suppliers. It integrates with whatsapp for order management"
         },
-        "ipm" : {
-            "title" : "IPM",
-            "technologies": "Git - JavaScript - ReactJS",
-            "description" : "This project consists in the recreation of the https://www.ipmeducar.com.ar/. I have carried out the redesign of the site as part of a practical designed to put me in the development"
+        "ecommerce" : {
+            "title" : "Ecommerce",
+            "technologies": "Git - ReactJS - React Router DOM - Axios - Express - MongoDB",
+            "description" : "The online store was built using ReactJS for the frontend and Node.js with Express for the backend. We employ JWT for authentication security and BcryptJS for password protection. We use MongoDB with Mongoose to manage the database and Nodemailer for communication with users. This approach allowed us to create an efficient and secure e-commerce platform."
         },
         "togo" : {
             "title" : "TOGO",
-            "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
+            "technologies": "Git - JavaScript - ReactJS, nodeJS, express, mongoDB",
             "description" : "This project consists of a backend application for a task management application. It utilizes Express.js as the web server framework and MongoDB as the database. The application provides endpoints for user registration, login, logout, user profile, and CRUD (Create, Read, Update, Delete) operations on tasks." 
         },
         "button": {
