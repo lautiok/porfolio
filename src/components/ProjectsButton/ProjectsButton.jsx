@@ -8,6 +8,7 @@ export const ProjectsButton = () => {
   const [t] = useTranslation('global');
   const [showDetails, setShowDetails] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [closing, setClosing] = useState(false);
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -25,12 +26,15 @@ export const ProjectsButton = () => {
   const handleCardClick = (project) => {
     setSelectedProject(project);
     setShowDetails(true);
-  
+    setClosing(false);
   };
 
   const handleCloseDetails = () => {
-    setShowDetails(false);
-    setSelectedProject(null);
+    setClosing(true);
+    setTimeout(() => {
+      setShowDetails(false);
+      setSelectedProject(null);
+    }, 300); // Tiempo de la animación
   };
 
   return (
@@ -61,8 +65,8 @@ export const ProjectsButton = () => {
         </div>
       </div>
       {showDetails && (
-        <div className='modal-overlay'>
-          <div className='modal' ref={modalRef}>
+        <div className={`modal-overlay ${closing ? 'closing' : ''}`}>
+          <div className={`modal ${closing ? 'closing' : ''}`} ref={modalRef}>
             <button className='close' onClick={handleCloseDetails}>Cerrar</button>
             <div className='modal-content'>
               <div className='img-modal'>
