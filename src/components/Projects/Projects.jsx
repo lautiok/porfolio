@@ -3,7 +3,6 @@ import './ProjectsModule.css'
 import { useTranslation } from 'react-i18next'
 import coffe from '../../assets/projects/coffe.png'
 import eco from '../../assets/projects/wolf.png'
-import { ProjectsButton } from '../ProjectsButton/ProjectsButton'
 export const Projects = () => {
     const [t] = useTranslation('global')
 
@@ -40,8 +39,6 @@ export const Projects = () => {
                     </div>
                 </div>
             </div>
-
-            <ProjectsButton />
         </div>
     )
 }
