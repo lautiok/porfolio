@@ -58,7 +58,7 @@
         "sp" : {
             "title" : "Adoption web",
             "technologies": "ReactJS - Express - MongoDB",
-            "description" : "This website is dedicated to pet adoption. Their goals are to increase online visibility so that animals can be adopted and find a family as soon as possible."
+            "description" : "The adoption web was built using ReactJS for the frontend and Node.js with Express for the backend. "
         },
         "button": {
             "git" : "GitHub",

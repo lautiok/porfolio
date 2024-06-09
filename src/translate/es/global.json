@@ -55,6 +55,11 @@
             "technologies": "Git - JavaScript - ReactJS, nodeJS, expressjs, mongoDB",
             "description" : "Este proyecto consta de una aplicación backend para una aplicación de gestión de tareas. Utiliza Express.js como marco del servidor web y MongoDB como base de datos. La aplicación proporciona puntos finales para operaciones de registro de usuario, inicio de sesión, cierre de sesión, perfil de usuario y CRUD (Crear, Leer, Actualizar, Eliminar) en tareas."
         },
+        "sp" : {
+            "title" : "Sitio web de adopción",
+            "technologies": "ReactJS - Express - MongoDB",
+            "description" : "El sitio web de adopción se construyo usando ReactJS para el frontend y Node.js con Express para el backend."
+        },
         "button": {
             "git" : "GitHub",
             "live" : "Sitio Web"
