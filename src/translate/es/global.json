@@ -3,7 +3,8 @@
         "experience" : "Experiencia",
         "projects" : "Proyectos",
         "technologies" : "Tecnologías",
-        "contact" : "Contacto"
+        "contact" : "Contacto",
+        "myblog" : "Mi Blog"
     },
     "hero" : {
         "status" : "Disponible para trabajar",

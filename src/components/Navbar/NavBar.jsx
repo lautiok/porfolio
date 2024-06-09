@@ -38,7 +38,7 @@ export const NavBar = () => {
                 </ul>
             </nav>
         </header>
-        <Link className='link-blog' to="/blog">Mi blog</Link>
+        <Link className='link-blog' to="/blog">{t('navbar.myblog')}</Link>
         </div>
         
     );
