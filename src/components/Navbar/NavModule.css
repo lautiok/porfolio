@@ -1,3 +1,9 @@
+.div-nav-blog {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
 header {
     background-color: #252525d7;
     display: flex;
@@ -37,6 +43,17 @@ nav ul li a {
     /* Quita el subrayado predeterminado de los enlaces */
     padding: 0.5rem 1rem;
     /* Añade espacio alrededor del texto para hacerlo más fácil de hacer clic en dispositivos táctiles */
+}
+
+.link-blog {
+    text-decoration: none;
+    background-color: #B4875C;
+    color: #ffffff;
+    margin-right: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+
 }
 
 /* Ajustes para pantallas más pequeñas */

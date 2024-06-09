@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavModule.css';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     const [t] = useTranslation('global');
@@ -17,6 +18,8 @@ export const NavBar = () => {
     };
 
     return (
+
+        <div className='div-nav-blog'>
         <header>
             <nav>
                 <ul>
@@ -35,5 +38,8 @@ export const NavBar = () => {
                 </ul>
             </nav>
         </header>
+        <Link className='link-blog' to="/blog">Mi blog</Link>
+        </div>
+        
     );
 };

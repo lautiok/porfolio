@@ -11,7 +11,6 @@ import { Technologies } from './components/Technologies/Technologies'
 function App() {
   return (
     <>
-
       <NavBar />
       <HeroSeccion />
       <Arrow />

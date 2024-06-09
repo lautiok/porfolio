@@ -1,0 +1,137 @@
+
+.flecha {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 4rem;
+
+}
+
+.flecha a {
+    text-decoration: none;
+    color: #B4875C;
+}
+
+
+.flecha i {
+    color: #B4875C;
+    font-size: 1.5rem;
+}
+
+.cargando {
+    color: #B4875C;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posttotal {
+    color: #fff;
+    font-size: 0.8rem
+}
+.title-blog {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+}
+
+.post {
+    background-color: #333; /* Fondo de las publicaciones */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #B4875C;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #ffffff82;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #ffffffce;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.more-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4875C;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #B4875C;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.more-info:hover {
+    background-color: #B4875C;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .posts {
+        width: 100%;
+        max-width: none;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .more-info {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
