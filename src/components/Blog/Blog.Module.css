@@ -19,6 +19,16 @@
     font-size: 1.5rem;
 }
 
+.ver-mas {
+    color: #B4875C;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem
+}
+
 .cargando {
     color: #B4875C;
     font-size: 1rem;
@@ -70,20 +80,13 @@
     flex-direction: column;
 }
 
-.title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #B4875C;
-    margin-bottom: 10px;
-}
-
 .date {
     font-size: 0.8rem;
     color: #ffffff82;
     margin-bottom: 10px;
 }
 
-.description {
+.description-post {
     color: #ffffffce;
     margin-bottom: 10px;
 }
@@ -95,25 +98,10 @@
     border-radius: 10px;
 }
 
-.more-info {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #B4875C;
-    text-decoration: none;
-    padding: 10px 15px;
-    border: 1px solid #B4875C;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
 
-.more-info:hover {
-    background-color: #B4875C;
-    color: #fff;
-}
 
 @media screen and (max-width: 768px) {
-    .container {
+    .container-blog {
         padding: 1rem;
     }
 
@@ -122,16 +110,20 @@
         max-width: none;
     }
 
-    .title {
-        font-size: 1.2rem;
+    .description-post {
+        font-size: 0.9rem;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .flecha {
+        margin-left: 1rem;
     }
 
-    .description {
-        font-size: 0.9rem;
+    .text p {
+      display: none;  
     }
 
-    .more-info {
-        font-size: 0.9rem;
-        padding: 8px 12px;
-    }
 }

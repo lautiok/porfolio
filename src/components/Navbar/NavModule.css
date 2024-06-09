@@ -146,6 +146,12 @@ nav ul li a {
     }
 }
 
+@media screen and (max-width: 430px) {
+    .link-blog {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 320px) {
     header {
         width: calc(100% - 2rem);
