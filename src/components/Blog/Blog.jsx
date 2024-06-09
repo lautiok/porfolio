@@ -8,10 +8,12 @@ export const Blog = () => {
   const [posts, setPosts] = useState([]);
   const [isloading , setIsloading] = useState(true)
 
+  const api = import.meta.env.VITE_API
+
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get("https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type,permalink,thumbnail_url,timestamp,username&access_token=IGQWRNQS14dVFuWkNRajNzS2xZAUy1HZA210Q2I1RkdCZAW5jbE1hN0NLZADdOQy1hSTQzTWU0VHljY0t2bHJTQ3daWS1zekQtNHlEcGZAiUDR5RTVrTm9ZAZATFyOXhFclk4MmpsSWlEQTRFSDFpOHM2ZAVNYRXJQVHlFZAUUZD");
+        const response = await axios.get(api);
         setPosts(response.data.data);
         setIsloading(false)
       } catch (error) {
