@@ -37,23 +37,28 @@
         "title" : "Projects",
         "coffe": {
             "title" : "Web cafeteria",
-            "technologies": "Git - JavaScript - ReactJS, Api Rest",
+            "technologies": " ReactJS",
             "description" : "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks"
         },
         "eco": {
             "title" : "Ecommerce whatsapp",
-            "technologies": "Git - JavaScript - ReactJS - Firebase",
+            "technologies": "ReactJS - Firebase",
             "description" : "Development of a whatsapp ecommerce app with firebase, for the health of clients and suppliers. It integrates with whatsapp for order management"
         },
         "ecommerce" : {
             "title" : "Ecommerce",
-            "technologies": "Git - ReactJS - React Router DOM - Axios - Express - MongoDB",
-            "description" : "The online store was built using ReactJS for the frontend and Node.js with Express for the backend. We employ JWT for authentication security and BcryptJS for password protection. We use MongoDB with Mongoose to manage the database and Nodemailer for communication with users. This approach allowed us to create an efficient and secure e-commerce platform."
+            "technologies": "ReactJS - Express - MongoDB",
+            "description" : "The online store was built using ReactJS for the frontend and Node.js with Express for the backend. "
         },
         "togo" : {
             "title" : "TOGO",
             "technologies": "Git - JavaScript - ReactJS, nodeJS, express, mongoDB",
             "description" : "This project consists of a backend application for a task management application. It utilizes Express.js as the web server framework and MongoDB as the database. The application provides endpoints for user registration, login, logout, user profile, and CRUD (Create, Read, Update, Delete) operations on tasks." 
+        },
+        "sp" : {
+            "title" : "Adoption web",
+            "technologies": "ReactJS - Express - MongoDB",
+            "description" : "This website is dedicated to pet adoption. Their goals are to increase online visibility so that animals can be adopted and find a family as soon as possible."
         },
         "button": {
             "git" : "GitHub",
