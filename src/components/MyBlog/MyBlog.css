@@ -1,0 +1,161 @@
+.myblog-container{
+    margin-left: 34rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.myblog-title {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.myblog-title h2 {
+    font-weight: 600;
+}
+
+.myblog-content h3 {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-bl {
+    display: flex;
+    border: 2px solid #4A5568;
+    margin-right: 31.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.blog-bl .blog-img {
+    margin-right: 2rem
+}
+
+.blog-bl .blog-img img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.blog-bl .blog-text p {
+    font-size: 1rem;
+    color: #ffffff
+}
+
+.blog-bl-button button {
+    width: 63%;
+    border : none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background-color: #B4875C;
+    margin-top: 0.5rem;
+}
+
+.blog-bl-button button a {
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+@media screen and (max-width: 1728px) {
+    .myblog-container {
+        margin-left: 12.5rem;
+    }
+
+    .blog-bl {
+        margin-right: 22rem;
+    }
+    .blog-bl-button button {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .myblog-container {
+        margin-left: 1rem;
+    }
+
+    .blog-bl {  
+        margin-right: 14rem;
+    }
+
+    .blog-bl-button button {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 837px) {
+    .blog-bl {
+        margin-right: 13rem;
+    }
+    .blog-bl-button button {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .blog-bl-button button {
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-bl {
+        margin-right: 4.5rem;
+    }
+    .blog-bl-button button {
+        width: 91%;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .myblog-container {
+        margin-left: 1rem;
+    }
+    
+    .myblog-title {
+        font-size: 0.8rem;
+    }
+    .blog-bl {
+        margin-right: 4.5rem;
+        flex-direction: column;
+    }
+
+    .blog-bl .blog-img  {
+        margin-right: 0rem
+    }
+
+    .blog-text .description-post {
+        font-size: 0.6rem;
+    }
+
+
+
+    .blog-bl-button button {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .blog-bl-button button {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .blog-bl {
+        margin-right: 1rem;
+    }
+    .blog-bl-button button {
+        width: 95%;
+    }
+
+}
+
+
+
+

@@ -1,11 +1,15 @@
 .technologies-container {
     margin-left: 34rem;
+    margin-top: 1rem;
 }
 
 .technologies-title {
-    margin-top: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #ffffff;
+}
+
+.technologies-title h2 {
+    font-weight: 600;
 }
 
 .content-technologies {

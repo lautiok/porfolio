@@ -1,11 +1,15 @@
 .contact-container {
     margin-left: 34rem;
+    margin-top: 1rem;
 }
 
 .contact {
-    margin-top: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #ffffff;
+}
+
+.contact h2 {
+    font-weight: 600;
 }
 
 .contact-form {

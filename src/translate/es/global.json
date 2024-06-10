@@ -68,6 +68,11 @@
     "technologies" : {
         "title" : "Tecnologías"
     },
+    "myblog" : {
+        "title" : "Mi Blog",
+        "lastpost" : "Último post",
+        "button" : "Ver todos los posts"
+    },
     "contact" : {
         "title" : "Contacto",
         "button" : "enviar"
