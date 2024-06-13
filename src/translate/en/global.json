@@ -40,6 +40,11 @@
             "technologies": " ReactJS",
             "description" : "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks"
         },
+        "tsavvy" : {
+            "title" : "Tsavvy",
+            "technologies": "ReactJS - Blogger",
+            "description" : "Development of a blog web application for information sector. Integration with Blogger for content management"
+        },
         "eco": {
             "title" : "Ecommerce whatsapp",
             "technologies": "ReactJS - Firebase",

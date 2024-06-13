@@ -5,6 +5,7 @@ import coffe from '../../assets/projects/coffe.png'
 import eco from '../../assets/projects/wolf.png'
 import tienda from '../../assets/projects/eco.png'
 import sp from '../../assets/projects/sp.png'
+import tsavvy from '../../assets/projects/tsavvy.png'
 export const Projects = () => {
     const [t] = useTranslation('global')
 
@@ -12,6 +13,21 @@ export const Projects = () => {
         <div id='projects' className='project-container'>
             <div id='project' className='projects'><h2> <i className="bi bi-backpack4-fill"></i> {t('projects.title')}</h2></div>
             <div className='projects'>
+            <div className='project-module'>
+                    <div className='project-img'>
+                        <img src={tsavvy} alt="projects" />
+                    </div>
+                    <div className='project-description'>
+                        <h2>{t('projects.tsavvy.title')}</h2>
+                        <p>{t('projects.tsavvy.technologies')}</p>
+                        <p className='description'>{t('projects.tsavvy.description')}</p>
+                        <div className='button-project'>
+                            <a href="https://github.com/lautiok/tsavvy" target="_blank" rel="noreferrer" ><i className="bi bi-github"></i> {t('projects.button.git')}</a>
+                            <a href="https://www.tsavvy.com.ar/" target="_blank" rel="noreferrer" ><i className="bi bi-link-45deg"></i> {t('projects.button.live')}</a>
+
+                        </div>
+                    </div>
+                </div>
             <div className='project-module'>
                     <div className='project-img'>
                         <img src={sp} alt="projects" />

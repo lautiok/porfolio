@@ -40,6 +40,11 @@
             "technologies": "ReactJS",
             "description" : "Proyecto creado con react para cafetería, obteniendo una Api rest donde puedo visualizar el stock de bebidas."
         },
+        "tsavvy" : {
+            "title" : "Tsavvy",
+            "technologies": "ReactJS - Blogger",
+            "description" : "Desarrollo de una aplicación web de blog para el sector informativo. Integración con Blogger para la gestión de contenido."
+        },
         "eco": {
             "title" : "Tienda online integrada con whatsapp",
             "technologies": "ReactJS - Firebase",
