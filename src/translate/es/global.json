@@ -14,17 +14,11 @@
     "experience" : {
         "title" : "Experiencia",
         "button" : " Saber Más",
-        "radioipm" : {
-            "title" : "Radio IPM",
-            "category" : "Desarrollador Full Stack",
-            "year" : "Mayo 2017",
-            "description": "Lideré el diseño del sitio web en WordPress, optimizó el código para una mayor eficiencia y velocidad, estrategias SEO implementadas, y desarrolló un reproductor de radio personalizado"
-        },
         "carlosaimar" : {
             "title" : "Carlos Aimar",
-            "category" : "Desarrollador web",
+            "category" : "community manager",
             "year" : "septiembre 2022",
-            "description": "A cargo de las estrategias de comunicación online, gestión de contenidos en redes sociales y desarrollo web para potenciar la presencia institucional."
+            "description": "A cargo de las estrategias de comunicación online, gestión de contenidos en redes sociales y campañas de marketing de la empresa."
         },
         "hermanosluci" : {
             "title" : "Hermanos Luci",

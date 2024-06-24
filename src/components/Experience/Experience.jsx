@@ -14,22 +14,6 @@ export const Experience = () => {
                         <div className="content">
                             <div className="left-column">
                                 <div className="info">
-                                    <h3 className="title">{t('experience.radioipm.category')}</h3>
-                                    <h4 className="company">{t('experience.radioipm.title')}</h4>
-                                    <time className="date">{t('experience.radioipm.year')}</time>
-                                </div>
-                            </div>
-                            <div className="right-column">
-                                <p className="description">{t('experience.radioipm.description')}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="event">
-                        <div className="bullet"></div>
-                        <div className="line"></div>
-                        <div className="content">
-                            <div className="left-column">
-                                <div className="info">
                                     <h3 className="title">{t('experience.carlosaimar.category')}</h3>
                                     <h4 className="company">{t('experience.carlosaimar.title')}</h4>
                                     <time className="date">{t('experience.carlosaimar.year')}</time>

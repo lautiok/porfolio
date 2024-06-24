@@ -14,30 +14,24 @@
     "experience" : {
         "title" : " Work Experience",
         "button" : "more",
-        "radioipm" : {
-            "title" : "Radio IPM",
-            "category" : "Full Stack Developer",
-            "year" : "May 2017",
-            "description": "I led the website design on WordPress, optimized the code for greater efficiency and speed, implemented SEO strategies, and developed a custom radio player"
-        },
         "carlosaimar" : {
             "title" : "Carlos Aimar",
-            "category" : " Web developer",
+            "category" : "community manager",
             "year" : "septembre 2022",
-            "description": "In charge of online communication strategies social media content management, and web development to enhance institutional presence"
+            "description": "In charge of online communication strategies social media content management and marketing campaigns for the company "
         },
         "hermanosluci" : {
             "title" : "Hermanos Luci",
             "category" : "Full Stack Developer",
             "year" : "May 2023",
-            "description" : "I led the web development and SEO, optimizing the site performance and creating an interactive travel application with ReactJS"
+            "description" : "I led the web development and SEO, optimizing the site performance and creating an interactive travel application "
         }
     },
     "projects" : {
         "title" : "Projects",
         "coffe": {
             "title" : "Web cafeteria",
-            "technologies": " ReactJS",
+            "technologies": "ReactJS",
             "description" : "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks"
         },
         "tsavvy" : {

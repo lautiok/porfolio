@@ -12,16 +12,14 @@
     font-weight: 600;
 }
 
-
 .timeline {
     position: relative;
     margin-top: 2rem;
-
 }
 
 .event {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items at the start */
     margin-bottom: 30px;
 }
 
@@ -39,59 +37,55 @@
     position: absolute;
     width: 2px;
     height: calc(100% - 20px);
-    /* Altura total menos el tamaño del punto amarillo */
     background-color: #4a5568;
-    /* Color gris */
     left: 9px;
-    /* Posiciona la línea en el centro del punto amarillo */
     top: 10px;
-    /* Posiciona la línea encima del punto amarillo */
 }
 
 .content {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Align items at the start */
     width: 100%;
+    flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.left-column, .right-column {
+    flex: 0.3; /* Allow columns to take equal space */
 }
 
 .right-column {
-    margin-left: 20rem;
-    margin-right: 30rem;
+    margin-left: 1rem;
+    margin-right: 0rem; /* Adjust margin to balance the layout */
 }
 
 .title {
     font-size: 1.5rem;
     font-weight: bold;
     color: #B4875C;
-
 }
 
 .company {
     font-size: 1.2rem;
     font-weight: bold;
     color: #ffffff82;
-    /* Color gris */
 }
 
 .date {
     font-size: 0.8rem;
     color: #ffffff82;
-    /* Color gris */
 }
 
 .description {
     margin-top: 10px;
     color: #ffffffce;
-    /* Color gris */
+    text-align: justify; /* Justify the text */
 }
 
 .more-info {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* Color azul */
     color: #B4875C;
-    /* Color blanco */
     text-decoration: none;
     border-radius: 5px;
 }
