@@ -55,7 +55,7 @@
 
 .right-column {
     margin-left: 1rem;
-    margin-right: 0rem; /* Adjust margin to balance the layout */
+    margin-right: 1rem; /* Adjust margin to balance the layout */
 }
 
 .title {
@@ -78,7 +78,7 @@
 .description {
     margin-top: 10px;
     color: #ffffffce;
-    text-align: justify; /* Justify the text */
+
 }
 
 .more-info {
