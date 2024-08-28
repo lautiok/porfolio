@@ -1,16 +1,13 @@
 import { Link } from "@/navigation";
 import style from "./blogCard.module.css";
 import { useTranslations } from "next-intl";
+import ApiBlog from "@/utils/ApiBlog";
 
 export default async function BlogCard() {
   const t = useTranslations("blog");
+  const data = await ApiBlog();
 
-  const api = process.env.API_BLOG;
-
-  const res = await fetch(`${api}`);
-  const data = await res.json();
-
-  const lastPost = data.data[0];
+  const lastPost = data[0];
 
   return (
     <Link href={`/blog`}>
