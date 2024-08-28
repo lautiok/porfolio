@@ -1,0 +1,63 @@
+.EducationContainer {
+  width: 525px;
+  background-color: var(--colorPrimary);
+  padding: 1.5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.EducationContainer h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.EducationContent header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.EducationContent header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.EducationContent header p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #d4d4d4;
+}
+
+.EducationContent p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1105px) {
+  .EducationContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .EducationContainer {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .EducationContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .EducationContainer {
+    width: 330px;
+  }
+}

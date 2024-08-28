@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  gap: 580px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.navTranslate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.navTranslate nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1105px) {
+  .header {
+    gap: 340px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

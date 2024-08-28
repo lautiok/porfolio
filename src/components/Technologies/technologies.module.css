@@ -1,0 +1,84 @@
+.TechnologiesContainer {
+  width: 525px;
+  background-color: var(--colorPrimary);
+  padding: 2rem;
+  border-radius: 20px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.TechnologiesContainer header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem;
+  margin-bottom: 4rem;
+}
+
+.TechnologiesContainer header h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.TechnologiesContainer header p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.Technologies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.TechnologiesItem {
+  background-color: #fff;
+  padding: 0.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.TechnologiesItem:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1105px) {
+  .TechnologiesContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .TechnologiesContainer header p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .TechnologiesContainer header h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .TechnologiesContainer {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .TechnologiesContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .TechnologiesContainer {
+    width: 330px;
+  }
+}
+

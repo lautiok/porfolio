@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": "tsavvy",
+      "title": " Tsavvy",
+      "description": "Development of a blog web application for information sector. Integration with Blogger for content management",
+      "url": "https://www.tsavvy.com.ar/",
+      "repository": "https://github.com/lautiok/tsavvy",
+      "category": "Frontend",
+      "techologies": ["Javascript", "React", "Blogger"],
+      "image": "tsavvy.webp"
+    },
+    {
+      "id": "buenosamigos",
+      "title": "Buenos Amigos",
+      "description": "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks",
+      "url": "https://coffe-wheat.vercel.app/",
+      "repository": "https://github.com/lautiok/coffe",
+      "category": "Frontend",
+      "techologies": ["Javascript", "React"],
+      "image": "buenosamigos.webp",
+      "color": "#9A7D5F"
+    },
+    {
+      "id": "safepaws",
+      "title": "SafePaws",
+      "description": "The adoption web was built using ReactJS for the frontend and Node.js with Express for the backend.",
+      "url": "https://adoption-web-application.vercel.app/",
+      "repository": "https://github.com/lautiok/tsavvy",
+      "category": "Backend",
+      "techologies": ["Javascript", "React", "express", "MongoDB"],
+      "image": "safepaws.webp",
+      "color": "#9A7D5F"
+    },
+    {
+      "id": "motorclycle",
+      "title": "Motorclycle",
+      "description": "The online store was built using ReactJS for the frontend and Node.js with Express for the backend.",
+      "repository": "https://github.com/lautiok/Ecommerce",
+      "category": "Backend",
+      "techologies": ["NodeJS", "MongoDB"],
+      "image": "motorclycle.webp"
+    }
+  ]
+}

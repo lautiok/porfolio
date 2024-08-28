@@ -1,0 +1,28 @@
+.not {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 1rem;
+}
+
+.not h1 {
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.not p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.not a {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+}

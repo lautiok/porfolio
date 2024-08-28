@@ -1,0 +1,102 @@
+.WorkExperienceContainer {
+  width: 525px;
+  background-color: #f3f3f3;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.WorkExperienceContainer h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
+}
+.Timeline {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-left: 2px solid #000000;
+}
+
+.TimelineItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.TimelinePoint {
+  width: 20px;
+  height: 20px;
+  background-color: var(--colorPrimary); /* Color del punto */
+  border-radius: 50%;
+  position: relative;
+  left: -30px; /* Mueve el punto sobre la línea */
+}
+
+.TimelineContent {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  max-width: 410px;
+}
+
+.TimelineContent h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.TimelineContent h4 {
+  font-size: 1rem;
+  color: #6b7280; /* Color gris para el nombre */
+}
+
+.TimelineContent span {
+  font-size: 0.9rem;
+  color: #9ca3af; /* Color gris claro para la fecha */
+  display: block;
+}
+
+.TimelineContent p {
+  font-size: 0.9rem;
+  color: #4b5563; /* Color gris oscuro para el texto */
+}
+
+@media screen and (max-width: 1105px) {
+  .WorkExperienceContainer {
+    width: 400px;
+  }
+
+  .Timeline {
+    border: none;
+  }
+
+  .TimelinePoint {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .WorkExperienceContainer {
+    width: 330px;
+  }
+
+  .Timeline {
+    padding-left: 0;
+  }
+
+  .TimelineItem {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .WorkExperienceContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .WorkExperienceContainer {
+    width: 330px;
+  }
+}

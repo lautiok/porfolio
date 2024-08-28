@@ -1,0 +1,147 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(222, 213, 203, 1) 42%,
+    rgba(154, 125, 95, 1) 90%
+  );
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
+  width: 660px;
+  height: 500px;
+}
+
+.heroContent h2 {
+  padding-top: 6.2rem;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.heroContent p {
+  font-weight: 300;
+  color: #000000;
+}
+
+.button {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 2rem;
+  border-radius: 0.9rem;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.heroImg img {
+  width: 390px;
+  height: 495px;
+  object-fit: cover;
+  object-position: end;
+  border-radius: 1rem;
+}
+
+.heroDescription {
+  max-width: 500px;
+  padding-bottom: 15.5rem;
+}
+
+.heroBtn {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.heroBtn .buttonRedes {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.heroBtn .buttonRedes:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1105px) {
+  .heroContent {
+    width: 500px;
+    height: 400px;
+  }
+
+  .heroContent h2 {
+    padding-top: 4rem;
+  }
+
+  .heroDescription {
+    padding-bottom: 10rem;
+  }
+
+  .heroImg img {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .heroContent {
+    width: 400px;
+    height: 300px;
+  }
+
+  .heroContent h2 {
+    padding-top: 3rem;
+  }
+
+  .heroDescription {
+    padding-bottom: 0.5em;
+  }
+
+  .heroImg img {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroImg img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .heroContent {
+    width: 340px;
+  }
+
+  .heroImg img {
+    width: 340px;
+    height: 300px;
+  }
+}

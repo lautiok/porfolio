@@ -1,0 +1,84 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container .category {
+  background-color: #f3f3f3;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.container p {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn a {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 200px;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  transition: all 0.2s ease;
+  margin-bottom: 0.6rem;
+}
+
+.btn a:hover {
+  transform: scale(1.01);
+}
+
+.project img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+@media (max-width: 430px) {
+  .project img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .btn a {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .container h1 {
+    font-size: 1.2rem;
+  }
+}
