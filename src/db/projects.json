@@ -26,7 +26,7 @@
       "title": "SafePaws",
       "description": "The adoption web was built using ReactJS for the frontend and Node.js with Express for the backend.",
       "url": "https://adoption-web-application.vercel.app/",
-      "repository": "https://github.com/lautiok/tsavvy",
+      "repository": "https://github.com/lautiok/Adoption-web-application",
       "category": "Backend",
       "techologies": ["Javascript", "React", "express", "MongoDB"],
       "image": "safepaws.webp",
