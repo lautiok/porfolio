@@ -21,6 +21,29 @@ export default function LocaleLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="noindex" />
+        <meta
+          name="description"
+          content="Nahuel Guerra, +2 years of experience in the software development sector. from Argentina, Buenos Aires. specialized in frontend and backend."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Nahuel Guerra - Developer Full Stack & Designer"
+        />
+        <meta
+          property="og:description"
+          content="Nahuel Guerra, +2 years of experience in the software development sector. from Argentina, Buenos Aires. specialized in frontend and backend."
+        />
+
+        <meta property="og:url" content="https://nahuelguerra.com.ar" />
+
+        <meta
+          property="og:image"
+          content="https://www.nahuelguerra.com.ar/foto-principal-lik.webp"
+        />
+
+        <link rel="canonical" href="https://nahuelguerra.com.ar" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
