@@ -21,7 +21,7 @@ export default function LocaleLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="index" />
         <meta
           name="description"
           content="Nahuel Guerra, +2 years of experience in the software development sector. from Argentina, Buenos Aires. specialized in frontend and backend."
