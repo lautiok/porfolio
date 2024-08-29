@@ -20,16 +20,27 @@
   gap: 1rem;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 681px) {
   .allProjects h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .allProjects {
+    gap: 0.5rem;
   }
 
   .Frontend {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .Backend {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 430px) {
+  .allProjects h2 {
+    font-size: 1.2rem;
   }
 
   .allProjects {
