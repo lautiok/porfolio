@@ -9,9 +9,7 @@ export default async function Page() {
   return (
     <main>
       <h2 className={styles.title}>Blog</h2>
-      <Suspense fallback={<AllBlogsSkeleton />}>
-        <AllBlog />
-      </Suspense>
+      <AllBlog />
     </main>
   );
 }
