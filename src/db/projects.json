@@ -11,6 +11,17 @@
       "image": "tsavvy.webp"
     },
     {
+      "id": "codear",
+      "title": "Codear",
+      "description": "Codear Marketing in ReactJS, providing innovation and improving the presentation of your services and mission.",
+      "url": "https://www.codear.ar/",
+      "repository": "https://github.com/lautiok/codear",
+      "category": "Frontend",
+      "techologies": ["Javascript", "React"],
+      "image": "codear.webp",
+      "color": "#9A7D5F"
+    },
+    {
       "id": "buenosamigos",
       "title": "Buenos Amigos",
       "description": "Project created with react for cafeteria, getting a Api rest where I can visualize the stock of drinks",
