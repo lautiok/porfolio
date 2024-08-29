@@ -82,6 +82,11 @@
   transform: scale(1.02);
 }
 
+.ContactContainer form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /* EmailCard.module.css */
 .CardContainer {
   perspective: 1000px;
@@ -117,6 +122,11 @@
   font-size: 1.5rem;
   font-weight: 800;
   color: #00ff22;
+}
+
+.Error {
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1105px) {

@@ -47,7 +47,8 @@
     "email": "Email",
     "message": "Mensaje",
     "send": "Enviar",
-    "sussess": "Correo enviado exitosamente"
+    "sussess": "Correo enviado exitosamente",
+    "loading": "Enviando..."
   },
   "technologies": {
     "title": "Tecnologías",

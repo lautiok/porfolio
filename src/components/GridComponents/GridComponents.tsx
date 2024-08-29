@@ -28,6 +28,7 @@ export default function GridComponents() {
             message={e("message")}
             send={e("send")}
             sussess={e("sussess")}
+            loading={e("loading")}
           />
         </div>
         <div className={style.izquierda}>

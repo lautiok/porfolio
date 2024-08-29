@@ -5,4 +5,5 @@ export interface ContactProps {
   message: string;
   send: string;
   sussess: string;
+  loading: string;
 }
