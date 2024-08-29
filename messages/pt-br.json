@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "blog": "Blog",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Olá, sou Nahuel Guerra",
+    "description": "+2 anos de experiência no setor de desenvolvimento. Da Argentina, Buenos Aires. Especializado em frontend e backend.",
+    "btn": "contato"
+  },
+  "blog": {
+    "title": "Meu Blog"
+  },
+  "workExperience": {
+    "title": "Experiência profissional",
+    "hermanosluci": {
+      "title": "Hermanos Luci",
+      "role": "Desenvolvedor Full Stack",
+      "description": "Desenvolvimento web e SEO, otimizando o desempenho do site e criando um aplicativo interativo de viagens",
+      "dates": "Maio 2023"
+    },
+    "carlosaimar": {
+      "title": "Carlos Aimar",
+      "role": "Community Manager",
+      "description": "Responsável por estratégias de comunicação online, gerenciamento de conteúdo de redes sociais e campanhas de marketing para empresas",
+      "dates": "Setembro 2022"
+    }
+  },
+  "education": {
+    "title": "Educação",
+    "coderhouse": {
+      "title": "Coderhouse",
+      "date": "Junho 2023",
+      "description": "Desenvolvedor Full Stack com JavaScript"
+    },
+    "Univercity": {
+      "title": "Universidade de Córdoba",
+      "date": "Maio 2022",
+      "description": "Introdução à ciência da computação"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "sussess": "Email enviado com sucesso"
+  },
+  "technologies": {
+    "title": "Tecnologias",
+    "select": "Selecionar a tecnologia"
+  },
+  "project": {
+    "notproject": "Nenhum projeto encontrado",
+    "repository": "repositório",
+    "live": "ao vivo"
+  },
+  "back": {
+    "title": "Voltar"
+  },
+  "NotFoundPage": {
+    "title": "Página não encontrada",
+    "btn": "voltar"
+  }
+}
