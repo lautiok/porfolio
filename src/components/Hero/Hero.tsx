@@ -18,6 +18,7 @@ export default function Hero() {
             className={style.buttonRedes}
             href="https://www.linkedin.com/in/nahuel-guerra/"
             target="_blank"
+            aria-label="ir a linkedin"
           >
             <Linkedin color="black" size={20} />
           </a>
@@ -25,12 +26,14 @@ export default function Hero() {
             className={style.buttonRedes}
             href="https://github.com/lautiok"
             target="_blank"
+            aria-label="ir a github"
           >
             <Github color="black" size={20} />
           </a>
           <a
             className={style.buttonRedes}
             href="https://drive.google.com/uc?export=download&id=1V4el4Yf3rD2_Fvj_ltp9ZETAIA9D9i-Y"
+            aria-label="descargar cv"
           >
             <Download color="black" size={20} />
           </a>
