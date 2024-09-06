@@ -14,19 +14,19 @@
   color: #fff;
 }
 
-.EducationContent header {
+.EducationContent a {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.EducationContent header h3 {
+.EducationContent a h3 {
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
 }
 
-.EducationContent header p {
+.EducationContent a p {
   font-size: 0.8rem;
   font-weight: 400;
   color: #d4d4d4;
