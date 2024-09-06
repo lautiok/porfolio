@@ -10,6 +10,11 @@ export default function CardBlog({
 }: BlogType) {
   const [isShowingMore, setIsShowingMore] = useState(false);
 
+  const texto = caption;
+
+  // Reemplazamos los saltos de línea por <br /> para que se vean en el HTML
+  const formattedText = texto.replace(/\n\n/g, "<br/><br/>");
+
   return (
     <article
       key={id}
@@ -33,18 +38,21 @@ export default function CardBlog({
         </div>
       </header>
       <div className={style.blogContent}>
-        <p>
-          {" "}
-          {isShowingMore ? caption : caption.slice(0, 600) + "..."}{" "}
-          {caption.length > 100 && (
-            <button
-              className={style.verMas}
-              onClick={() => setIsShowingMore(!isShowingMore)}
-            >
-              {isShowingMore ? "Ver menos" : "Ver más"}
-            </button>
-          )}
-        </p>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: isShowingMore
+              ? formattedText
+              : formattedText.slice(0, 800) + "...",
+          }}
+        />
+        {formattedText.length > 100 && (
+          <button
+            className={style.verMas}
+            onClick={() => setIsShowingMore(!isShowingMore)}
+          >
+            {isShowingMore ? "Ver menos" : "Ver más"}
+          </button>
+        )}
         <img src={media_url} alt="imgage post" />
       </div>
     </article>
