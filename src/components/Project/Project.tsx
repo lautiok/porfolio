@@ -19,7 +19,11 @@ export default function Project({
   return (
     <section className={style.project}>
       <div className={style.container + " animate__animated animate__backInUp"}>
-        <p className={style.category}>{project.category}</p>
+        <p className={style.category}>
+          {project.techologies.map((tech) => (
+            <span key={tech}>{tech}</span>
+          ))}
+        </p>
         <h1> {project.title}</h1>
         <p className={style.description}>{project.description}</p>
       </div>
