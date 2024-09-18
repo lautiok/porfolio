@@ -8,7 +8,7 @@ export default function Card({
   description,
   image,
   color,
-}: CardsProps) {
+}: any) {
   return (
     <article style={{ backgroundColor: color }} className={style.cards}>
       <header>
