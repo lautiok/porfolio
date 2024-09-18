@@ -25,9 +25,9 @@ export default function AllProjects() {
       <h2 className="animate__animated animate__backInUp">Backend</h2>
       <div className={style.Backend + " animate__animated animate__backInUp"}>
         {Backend.map((project) => (
-          <Link key={project.id} href={`/projects/${project.id}`}>
+          <a key={project.id} href={`${project.repository}`} target="_blank">
             <Cards {...project} />
-          </Link>
+          </a>
         ))}
       </div>
     </section>

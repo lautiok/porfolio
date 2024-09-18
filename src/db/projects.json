@@ -37,20 +37,27 @@
       "title": "SafePaws",
       "description": "The adoption web was built using ReactJS for the frontend and Node.js with Express for the backend.",
       "url": "https://adoption-web-application.vercel.app/",
-      "repository": "https://github.com/lautiok/Adoption-web-application",
+      "repository": "https://github.com/lautiok/Adoption-web-application/tree/main/backend",
       "category": "Backend",
       "techologies": ["React", "NodeJS", "Express", "MongoDB", "Vercel"],
-      "image": "safepaws.webp",
       "color": "#9A7D5F"
     },
     {
       "id": "motorclycle",
       "title": "Motorclycle",
       "description": "The online store was built using ReactJS for the frontend and Node.js with Express for the backend.",
-      "repository": "https://github.com/lautiok/Ecommerce",
+      "repository": "https://github.com/lautiok/Ecommerce/tree/main/backend",
       "category": "Backend",
-      "techologies": ["NodeJS", "MongoDB", "React"],
-      "image": "motorclycle.webp"
+      "techologies": ["NodeJS", "MongoDB", "React"]
+    },
+    {
+      "id": "rentsale",
+      "title": "Rentsale",
+      "description": "Development of a web application for a real estate agency, the web was built using ReactJS for the frontend and Node.js for the backend.",
+      "repository": "https://github.com/lautiok/real_estate/tree/master/client",
+      "category": "Frontend",
+      "techologies": ["Reactjs", "NodeJS", "Express", "MongoDB", "Vercel"],
+      "image": "rentsale.JPG"
     }
   ]
 }

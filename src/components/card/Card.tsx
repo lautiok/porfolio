@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { CardsProps } from "@/type/Proyects";
-import style from "./Cards.module.css";
+import style from "./card.module.css";
 
-export default function Cards({
+export default function Card({
   title,
   category,
   description,
+  image,
   color,
 }: CardsProps) {
   return (
@@ -17,6 +18,11 @@ export default function Cards({
       <div className={style.description}>
         <p>{description.slice(0, 90)} ...</p>
       </div>
+      {image && (
+        <div className={style.img}>
+          <img src={`/${image}`} alt={title} />
+        </div>
+      )}
     </article>
   );
 }
