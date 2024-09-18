@@ -1,9 +1,10 @@
 export interface CardsProps {
+  id: string;
   title: string;
   category: string;
   description: string;
-  image: string;
-  color?: string;
+  color: string;
+  repository?: string;
 }
 
 export interface TranslatePropsProject {

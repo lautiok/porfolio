@@ -2,12 +2,7 @@
 import { CardsProps } from "@/type/Proyects";
 import style from "./Cards.module.css";
 
-export default function Cards({
-  title,
-  category,
-  description,
-  color,
-}: CardsProps) {
+export default function Cards({ title, category, description, color }: any) {
   return (
     <article style={{ backgroundColor: color }} className={style.cards}>
       <header>
