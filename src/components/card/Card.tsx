@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { CardsProps } from "@/type/Proyects";
+import { CardProps } from "@/type/Proyects";
 import style from "./card.module.css";
 
 export default function Card({
@@ -8,7 +8,7 @@ export default function Card({
   description,
   image,
   color,
-}: any) {
+}: CardProps) {
   return (
     <article style={{ backgroundColor: color }} className={style.cards}>
       <header>

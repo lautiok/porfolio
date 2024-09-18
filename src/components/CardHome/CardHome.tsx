@@ -5,7 +5,13 @@ export default function CardHome() {
   const projects = db.projects[0];
   return (
     <Link className="" href={`/projects/${projects.id}`}>
-      <Card {...projects} />
+      <Card
+        title={projects.title}
+        category={projects.category}
+        description={projects.description}
+        image={projects.image}
+        color={projects.color}
+      />
     </Link>
   );
 }
