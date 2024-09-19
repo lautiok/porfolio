@@ -1,17 +1,24 @@
 import { Link } from "@/navigation";
 import db from "../../db/projects.json";
 import Card from "../card/Card";
+
 export default function CardHome() {
-  const projects = db.projects[0];
+  const [firstProject] = db.projects;
+
+  if (!firstProject) {
+    return null;
+  }
+
   return (
-    <Link className="" href={`/projects/${projects.id}`}>
+    <Link href={`/projects/${firstProject.id}`}>
       <Card
-        title={projects.title}
-        category={projects.category}
-        description={projects.description}
-        image={projects.image}
-        color={projects.color}
+        title={firstProject.title}
+        category={firstProject.category}
+        description={firstProject.description}
+        image={firstProject.image}
+        color={firstProject.color}
       />
     </Link>
   );
 }
+ 

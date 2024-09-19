@@ -8,6 +8,10 @@
   --colorPrimary: #9a7d5f;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--backgroudColor);
   color: var(--textColor);
