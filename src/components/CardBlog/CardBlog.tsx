@@ -10,10 +10,19 @@ export default function CardBlog({
 }: BlogType) {
   const [isShowingMore, setIsShowingMore] = useState(false);
 
-  const texto = caption;
+  // Función para reemplazar los enlaces por etiquetas <a>
+  const formatCaptionWithLinks = (text: string) => {
+    const urlPattern = /(\bhttps?:\/\/[^\s]+)/g;
+    return text.replace(urlPattern, function (url: string) {
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    });
+  };
 
-  // Reemplazamos los saltos de línea por <br /> para que se vean en el HTML
-  const formattedText = texto.replace(/\n\n/g, "<br/><br/>");
+  // Primero formateamos los links y luego los saltos de línea
+  const formattedText = formatCaptionWithLinks(caption).replace(
+    /\n\n/g,
+    "<br/><br/>"
+  );
 
   return (
     <article

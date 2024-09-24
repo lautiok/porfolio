@@ -45,6 +45,11 @@
   color: black;
 }
 
+.blogContent p a {
+  color: #6fa2ff;
+  text-decoration: underline;
+}
+
 .verMas {
   color: var(--colorPrimary);
   font-weight: 600;
@@ -54,6 +59,12 @@
   width: 100%;
   height: auto;
   border-radius: 1rem;
+}
+
+.ancor {
+  color: #6fa2ff;
+  text-decoration: line-through;
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 430px) {
   .blog {
