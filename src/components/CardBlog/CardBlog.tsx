@@ -1,7 +1,8 @@
-import { useState } from "react";
 /* eslint-disable @next/next/no-img-element */
+import { useState, useEffect } from "react";
 import style from "./cardblog.module.css";
-
+import { formatRelativeTime } from "@/utils/formatRelativeTime";
+import { formatCaptionWithLinks } from "@/utils/formatCaptionWithLinks";
 export default function CardBlog({
   id,
   caption,
@@ -9,16 +10,12 @@ export default function CardBlog({
   timestamp,
 }: BlogType) {
   const [isShowingMore, setIsShowingMore] = useState(false);
+  const [relativeTime, setRelativeTime] = useState<string>("");
 
-  // Función para reemplazar los enlaces por etiquetas <a>
-  const formatCaptionWithLinks = (text: string) => {
-    const urlPattern = /(\bhttps?:\/\/[^\s]+)/g;
-    return text.replace(urlPattern, function (url: string) {
-      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
-    });
-  };
+  useEffect(() => {
+    setRelativeTime(formatRelativeTime(timestamp));
+  }, [timestamp]);
 
-  // Primero formateamos los links y luego los saltos de línea
   const formattedText = formatCaptionWithLinks(caption).replace(
     /\n\n/g,
     "<br/><br/>"
@@ -39,11 +36,7 @@ export default function CardBlog({
             Desarrollador Backend | Programación informática, aplicaciones
             específicas
           </p>
-          <p>
-            {new Date(timestamp).toLocaleString("es-ES", {
-              dateStyle: "short",
-            })}
-          </p>
+          <p>{relativeTime}</p>
         </div>
       </header>
       <div className={style.blogContent}>
@@ -51,7 +44,7 @@ export default function CardBlog({
           dangerouslySetInnerHTML={{
             __html: isShowingMore
               ? formattedText
-              : formattedText.slice(0, 800) + "...",
+              : formattedText.slice(0, 200) + "...",
           }}
         />
         {formattedText.length > 100 && (
@@ -62,7 +55,7 @@ export default function CardBlog({
             {isShowingMore ? "Ver menos" : "Ver más"}
           </button>
         )}
-        <img src={media_url} alt="imgage post" />
+        <img src={media_url} alt="image post" />
       </div>
     </article>
   );
