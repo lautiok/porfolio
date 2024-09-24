@@ -19,8 +19,6 @@ export default function AllBlog() {
     fetchPosts();
   }, []);
 
-  console.log(posts);
-
   return (
     <section className={style.allBlog}>
       {isloading ? (
