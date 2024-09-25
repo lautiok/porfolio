@@ -33,7 +33,7 @@ export default function CardBlog({
         <div className={style.infoAvatar}>
           <h2>Nahuel Guerra</h2>
           <p>
-            Desarrollador Backend | Programación informática, aplicaciones
+            Desarrollador Full Stack | Programación informática, aplicaciones
             específicas
           </p>
           <p>{relativeTime}</p>
