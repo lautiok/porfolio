@@ -1,8 +1,13 @@
+"use client";
 import { Link } from "@/navigation";
-import db from "../../db/projects.json";
+import dbEn from "../../db/projects-en.json";
+import dbEs from "../../db/projects_es.json";
 import Card from "../card/Card";
+import { useParams } from "next/navigation";
 
 export default function CardHome() {
+  const { locale } = useParams();
+  const db = locale === "es" ? dbEs : dbEn;
   const [firstProject] = db.projects;
 
   if (!firstProject) {
@@ -21,4 +26,3 @@ export default function CardHome() {
     </Link>
   );
 }
- 

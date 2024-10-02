@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "id": "tsavvy",
+      "title": "Tsavvy",
+      "description": "Desarrollo de una aplicación web tipo blog para el sector de información. Integración con Blogger para la gestión de contenido",
+      "url": "https://www.tsavvy.com.ar/",
+      "repository": "https://github.com/lautiok/tsavvy",
+      "category": "Frontend",
+      "techologies": ["Reactjs", "Blogger", "Vercel"],
+      "image": "tsavvy.webp"
+    },
+    {
+      "id": "codear",
+      "title": "Codear",
+      "description": "Codear Marketing en ReactJS, proporcionando innovación y mejorando la presentación de tus servicios y misión.",
+      "url": "https://www.codear.ar/",
+      "repository": "https://github.com/lautiok/codear",
+      "category": "Frontend",
+      "techologies": ["React", "Vercel"],
+      "image": "codear.webp",
+      "color": "#9A7D5F"
+    },
+    {
+      "id": "buenosamigos",
+      "title": "Buenos Amigos",
+      "description": "Proyecto creado con React para cafetería, obteniendo una API Rest donde se puede visualizar el stock de bebidas.",
+      "url": "https://coffe-wheat.vercel.app/",
+      "repository": "https://github.com/lautiok/coffe",
+      "category": "Frontend",
+      "techologies": ["React", "Vercel"],
+      "image": "buenosamigos.webp",
+      "color": "#9A7D5F"
+    },
+    {
+      "id": "safepaws",
+      "title": "SafePaws",
+      "description": "El sitio web de adopción fue construido usando ReactJS para el frontend y Node.js con Express para el backend.",
+      "url": "https://adoption-web-application.vercel.app/",
+      "repository": "https://github.com/lautiok/Adoption-web-application/tree/main/backend",
+      "category": "Backend",
+      "techologies": ["React", "NodeJS", "Express", "MongoDB", "Vercel"],
+      "color": "#9A7D5F"
+    },
+    {
+      "id": "motorclycle",
+      "title": "Motorclycle",
+      "description": "La tienda en línea fue construida usando ReactJS para el frontend y Node.js con Express para el backend.",
+      "repository": "https://github.com/lautiok/Ecommerce/tree/main/backend",
+      "category": "Backend",
+      "techologies": ["NodeJS", "MongoDB", "React"]
+    },
+    {
+      "id": "rentsale",
+      "title": "Rentsale",
+      "description": "Desarrollo de una aplicación web para una agencia inmobiliaria, la web fue construida usando ReactJS para el frontend y Node.js para el backend.",
+      "repository": "https://github.com/lautiok/real_estate/tree/master/client",
+      "category": "Frontend",
+      "techologies": ["Reactjs", "NodeJS", "Express", "MongoDB", "Vercel"],
+      "image": "rentsale.JPG"
+    }
+  ]
+}

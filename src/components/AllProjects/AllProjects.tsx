@@ -1,9 +1,16 @@
+"use client";
+
 import style from "./allProjects.module.css";
-import db from "../../db/projects.json";
+import dbEs from "../../db/projects_es.json";
+import dbEn from "../../db/projects-en.json";
 import Cards from "../cards/Cards";
 import { Link } from "@/navigation";
+import { useParams } from "next/navigation";
 
 export default function AllProjects() {
+  const { locale } = useParams();
+  const db = locale === "es" ? dbEs : dbEn;
+
   const projects = db.projects;
   const Frontend = projects.filter(
     (project) => project.category === "Frontend"

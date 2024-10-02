@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { useParams } from "next/navigation";
-import db from "../../db/projects.json";
+import dbEn from "../../db/projects-en.json";
+import dbEs from "../../db/projects_es.json";
 import style from "./project.module.css";
 import { TranslatePropsProject } from "@/type/Proyects";
 export default function Project({
@@ -9,7 +10,10 @@ export default function Project({
   repository,
   live,
 }: TranslatePropsProject) {
-  const { id } = useParams();
+  const { id, locale } = useParams();
+
+  const db = locale === "es" ? dbEs : dbEn;
+
   const project = db.projects.find((project) => project.id === id);
 
   if (!project) {
