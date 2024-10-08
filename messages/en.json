@@ -16,9 +16,9 @@
   "workExperience": {
     "title": "Work Experience",
     "hermanosluci": {
-      "title": "HL Transport",
+      "title": "Codear",
       "role": "Frontend Developer",
-      "description": "I led the web development and SEO, optimizing the site performance and creating an interactive travel application",
+      "description": "colaborated in the creation of custom websites, optimizing functionality and user experience with ReactJS and Next.js in a web consultancy.",
       "dates": "May 2023"
     },
     "carlosaimar": {

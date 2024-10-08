@@ -16,9 +16,9 @@
   "workExperience": {
     "title": "Experiencia laboral",
     "hermanosluci": {
-      "title": "HL transporte",
+      "title": "Codear",
       "role": "Desarrollador Frontend",
-      "description": "Desarrollo web y SEO, optimizando el rendimiento del sitio y creando una aplicación interactiva de viajes",
+      "description": "Colaboré en la creación de sitios web personalizados, optimizando funcionalidad y experiencia de usuario con ReactJS y Next.js en una consultora web.",
       "dates": "Mayo 2023"
     },
     "carlosaimar": {
