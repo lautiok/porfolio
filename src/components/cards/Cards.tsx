@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { CardProps } from "@/type/Proyects";
-import style from "./cards.module.css";
+import style from "./Cards.module.css";
 
 export default function Cards({
   title,
