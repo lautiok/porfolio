@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import style from "./back.module.css";
 import { ArrowLeft } from "lucide-react";
 
-export default function Back({ back }: { back: string }) {
+export default function Back() {
   const router = useRouter();
 
   const handleBack = () => {
@@ -17,7 +17,7 @@ export default function Back({ back }: { back: string }) {
   return (
     <div className={style.Back}>
       <button onClick={handleBack}>
-        <ArrowLeft color="black" size={20} /> {back}
+        <ArrowLeft color="black" size={20} />
       </button>
     </div>
   );

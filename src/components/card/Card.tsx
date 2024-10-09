@@ -10,7 +10,7 @@ export default function Card({
   color,
 }: CardProps) {
   return (
-    <article style={{ backgroundColor: color }} className={style.cards}>
+    <article className={style.cards}>
       <header>
         <h3>{title}</h3>
         <p>{category}</p>

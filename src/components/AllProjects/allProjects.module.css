@@ -4,9 +4,8 @@
   gap: 1rem;
 }
 
-.allProjects h2 {
-  font-size: 1.4rem;
-  font-weight: 600;
+.columnReverse {
+  flex-direction: column-reverse;
 }
 
 .Backend {
@@ -15,10 +14,34 @@
   gap: 1rem;
   margin-top: 1rem;
 }
+
 .Frontend {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+
+/* Estilos para los botones de cambio de orden */
+.filterButtons {
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  top: 0;
+  padding: 0.5rem 0;
+  z-index: 10;
+}
+
+.filterButtons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #4e4e4e;
+  font-weight: 600;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filterButtons .active {
+  color: #000;
 }
 
 @media (max-width: 681px) {
@@ -26,14 +49,7 @@
     font-size: 1.3rem;
   }
 
-  .allProjects {
-    gap: 0.5rem;
-  }
-
-  .Frontend {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
+  .Frontend,
   .Backend {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -42,9 +58,5 @@
 @media (max-width: 430px) {
   .allProjects h2 {
     font-size: 1.2rem;
-  }
-
-  .allProjects {
-    gap: 0.5rem;
   }
 }

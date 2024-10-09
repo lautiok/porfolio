@@ -6,10 +6,10 @@ import Back from "@/components/Back/Back";
 export default function Page() {
   metadata.title = "Nahuel Guerra - Project";
   const t = useTranslations("project");
-  const b = useTranslations("back");
   return (
     <>
       <main>
+        <Back />
         <Project
           notproject={t("notproject")}
           repository={t("repository")}

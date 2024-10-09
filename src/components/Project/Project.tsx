@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { useParams } from "next/navigation";
@@ -58,11 +59,14 @@ export default function Project({
           ""
         )}
       </div>
-      <img
-        className="animate__animated animate__backInUp"
-        src={`/${project.image}`}
-        alt="project"
-      />
+      {project.images?.map((image) => (
+        <img
+          className="animate__animated animate__backInUp"
+          src={`/${image.image}`}
+          alt="project"
+          key={image.id}
+        />
+      ))}
     </section>
   );
 }

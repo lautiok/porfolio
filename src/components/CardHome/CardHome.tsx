@@ -2,8 +2,8 @@
 import { Link } from "@/navigation";
 import dbEn from "../../db/projects-en.json";
 import dbEs from "../../db/projects_es.json";
-import Card from "../card/Card";
 import { useParams } from "next/navigation";
+import Cards from "../cards/Cards";
 
 export default function CardHome() {
   const { locale } = useParams();
@@ -16,11 +16,11 @@ export default function CardHome() {
 
   return (
     <Link href={`/projects/${firstProject.id}`}>
-      <Card
+      <Cards
         title={firstProject.title}
         category={firstProject.category}
         description={firstProject.description}
-        image={firstProject.image}
+        image={firstProject.images?.[0].image}
         color={firstProject.color}
       />
     </Link>

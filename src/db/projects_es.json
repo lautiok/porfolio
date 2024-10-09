@@ -3,34 +3,77 @@
     {
       "id": "tsavvy",
       "title": "Tsavvy",
-      "description": "Desarrollo de una aplicación web tipo blog para el sector de información. Integración con Blogger para la gestión de contenido",
+      "description": "He desarrollado una aplicación web informativa con ReactJS que integra la API de Blogger para gestionar el contenido de manera dinámica, permitiendo a los administradores actualizar publicaciones sin modificar el código. Utilicé Axios para las solicitudes HTTP, lo que asegura la sincronización con las entradas de Blogger, y React Router DOM para una navegación fluida entre páginas como la lista de publicaciones y los detalles de cada artículo. La aplicación fue creada con Vite para aprovechar su rendimiento y su entorno de desarrollo rápido.",
       "url": "https://www.tsavvy.com.ar/",
       "repository": "https://github.com/lautiok/tsavvy",
       "category": "Frontend",
       "techologies": ["Reactjs", "Blogger", "Vercel"],
-      "image": "tsavvy.webp"
+      "images": [
+        {
+          "id": 1,
+          "image": "tsavvy.webp"
+        },
+        {
+          "id": 2,
+          "image": "tsavvy_dos.webp"
+        }
+      ]
     },
     {
       "id": "codear",
       "title": "Codear",
-      "description": "Codear Marketing en ReactJS, proporcionando innovación y mejorando la presentación de tus servicios y misión.",
+      "description": "He desarrollado Codear Marketing utilizando ReactJS para ofrecer una presentación innovadora y atractiva de servicios y misión, mejorando la experiencia del usuario. Implementé React Router DOM para una navegación fluida, React Helmet Async para la gestión de los metadatos y SEO, y React Transition Group para crear transiciones suaves entre las distintas secciones de la web. Esto permite una interfaz dinámica, optimizada para el marketing digital y orientada a mejorar la visibilidad y presentación de la marca.",
       "url": "https://www.codear.ar/",
       "repository": "https://github.com/lautiok/codear",
       "category": "Frontend",
       "techologies": ["React", "Vercel"],
-      "image": "codear.webp",
-      "color": "#9A7D5F"
+      "color": "#9A7D5F",
+      "images": [
+        {
+          "id": 1,
+          "image": "codear.webp"
+        },
+        {
+          "id": 2,
+          "image": "codear_dos.webp"
+        },
+        {
+          "id": 3,
+          "image": "codear_tres.webp"
+        },
+        {
+          "id": 4,
+          "image": "codear_cuatro.webp"
+        }
+      ]
     },
     {
       "id": "buenosamigos",
       "title": "Buenos Amigos",
-      "description": "Proyecto creado con React para cafetería, obteniendo una API Rest donde se puede visualizar el stock de bebidas.",
+      "description": "He desarrollado un proyecto para una cafetería utilizando ReactJS, que permite visualizar el stock de bebidas a través de una integración con una API Rest. Implementé Axios para realizar las solicitudes a la API, React Router DOM para gestionar la navegación entre páginas, y React Helmet para optimizar el SEO y la gestión de los metadatos. Además, se utilizó Bootstrap para el diseño responsivo y una interfaz atractiva, brindando una experiencia de usuario intuitiva y moderna.",
       "url": "https://coffe-wheat.vercel.app/",
       "repository": "https://github.com/lautiok/coffe",
       "category": "Frontend",
       "techologies": ["React", "Vercel"],
-      "image": "buenosamigos.webp",
-      "color": "#9A7D5F"
+      "color": "#9A7D5F",
+      "images": [
+        {
+          "id": 1,
+          "image": "buenosamigos.webp"
+        },
+        {
+          "id": 2,
+          "image": "buenosamigos_dos.webp"
+        },
+        {
+          "id": 3,
+          "image": "buenosamigos_tres.webp"
+        },
+        {
+          "id": 4,
+          "image": "buenosamigos_cuatro.webp"
+        }
+      ]
     },
     {
       "id": "safepaws",
@@ -53,11 +96,24 @@
     {
       "id": "rentsale",
       "title": "Rentsale",
-      "description": "Desarrollo de una aplicación web para una agencia inmobiliaria, la web fue construida usando ReactJS para el frontend y Node.js para el backend.",
+      "description": "Desarrollé una aplicación web para una agencia inmobiliaria utilizando ReactJS en el frontend, lo que permite una gestión eficiente de las propiedades. La aplicación utiliza Axios para realizar solicitudes a la API y React Router DOM para una navegación fluida entre las distintas secciones. Incorporé React Helmet y React Helmet Async para mejorar el SEO y la gestión de metadatos, mientras que React Hook Form facilita la validación y gestión de formularios. También incluí React Hot Toast para notificaciones atractivas, React Select para seleccionar propiedades, y React Slick junto con Slick Carousel para implementar un carrusel responsivo, ofreciendo una experiencia de usuario intuitiva y moderna.",
       "repository": "https://github.com/lautiok/real_estate/tree/master/client",
       "category": "Frontend",
       "techologies": ["Reactjs", "NodeJS", "Express", "MongoDB", "Vercel"],
-      "image": "rentsale.JPG"
+      "images": [
+        {
+          "id": 1,
+          "image": "rentsale.webp"
+        },
+        {
+          "id": 2,
+          "image": "rentsale_tres.webp"
+        },
+        {
+          "id": 3,
+          "image": "rentsale_dos.webp"
+        }
+      ]
     }
   ]
 }

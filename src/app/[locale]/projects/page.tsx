@@ -11,6 +11,7 @@ export default function projects() {
   return (
     <>
       <main>
+        <Back />
         <h2 className={style.title}>{t("projects")}</h2>
         <AllProjects />
       </main>
