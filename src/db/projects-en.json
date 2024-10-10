@@ -27,7 +27,7 @@
       "url": "https://hltransporte.vercel.app/",
       "repository": "https://github.com/lautiok/hltransporte",
       "category": "Frontend",
-      "techologies": ["Reactjs", "Vercel"],
+      "techologies": ["Reactjs", "Nextjs", "Vercel"],
       "images": [
         {
           "id": 1,
