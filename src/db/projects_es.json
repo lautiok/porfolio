@@ -19,6 +19,34 @@
         }
       ]
     },
+
+    {
+      "id": "hltransporte",
+      "title": "HL Transporte",
+      "description": "Desarrollé el sitio web de HL Transporte, una empresa de turismo, utilizando ReactJS y Next.js. La página incluye secciones de servicios, destinos, clientes y sobre nosotros, además de un sistema de cotizaciones integrado que permite enviar formularios a través de WhatsApp. Contribuí a mejorar la experiencia del usuario y la funcionalidad del sitio, optimizando su rendimiento y usabilidad.",
+      "url": "https://hltransporte.vercel.app/",
+      "repository": "https://github.com/lautiok/hltransporte",
+      "category": "Frontend",
+      "techologies": ["Reactjs", "Vercel"],
+      "images": [
+        {
+          "id": 1,
+          "image": "hltransporte.webp"
+        },
+        {
+          "id": 2,
+          "image": "hltransporte_dos.webp"
+        },
+        {
+          "id": 3,
+          "image": "hltransporte_tres.webp"
+        },
+        {
+          "id": 4,
+          "image": "hltransporte_cuatro.webp"
+        }
+      ]
+    },
     {
       "id": "codear",
       "title": "Codear",
