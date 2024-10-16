@@ -2,7 +2,7 @@
 import { useTranslations } from "next-intl";
 import style from "./hero.module.css";
 import { Link } from "@/navigation";
-import { Linkedin, Github, Download } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 export default function Hero() {
   const t = useTranslations("hero");
   return (
@@ -11,9 +11,13 @@ export default function Hero() {
         <h2>{t("title")}</h2>
         <p className={style.heroDescription}>{t("description")}</p>
         <div className={style.heroBtn}>
-          <Link className={style.button} href="#contact">
+          <a
+            className={style.button}
+            href="https://drive.google.com/uc?export=download&id=1V4el4Yf3rD2_Fvj_ltp9ZETAIA9D9i-Y"
+            aria-label="descargar cv"
+          >
             {t("btn")}
-          </Link>
+          </a>
           <a
             className={style.buttonRedes}
             href="https://www.linkedin.com/in/nahuel-guerra/"
@@ -32,10 +36,11 @@ export default function Hero() {
           </a>
           <a
             className={style.buttonRedes}
-            href="https://drive.google.com/uc?export=download&id=1V4el4Yf3rD2_Fvj_ltp9ZETAIA9D9i-Y"
-            aria-label="descargar cv"
+            href="mailto:nahuelguerra56b@gmail.com"
+            target="_blank"
+            aria-label="ir a mail"
           >
-            <Download color="black" size={20} />
+            <Mail color="black" size={20} />
           </a>
         </div>
       </div>

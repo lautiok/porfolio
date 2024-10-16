@@ -1,8 +1,6 @@
 import { useTranslations } from "next-intl";
 import BlogCard from "../BlogCard/BlogCard";
-import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
-import { TechnologiesClient } from "../Technologies/TechnologiesClient";
 import WorkExperience from "../WorkExperience/WorkExperience";
 import style from "./GridComponents.module.css";
 import CardHome from "../CardHome/CardHome";
@@ -21,22 +19,12 @@ export default function GridComponents() {
         <div className={style.derecha}>
           <CardHome />
           <Education />
-          <Contact
-            title={e("title")}
-            name={e("name")}
-            email={e("email")}
-            message={e("message")}
-            send={e("send")}
-            sussess={e("sussess")}
-            loading={e("loading")}
-          />
         </div>
         <div className={style.izquierda}>
           <Suspense fallback={<BlogCardSkeleton />}>
             <BlogCard />
           </Suspense>
           <WorkExperience />
-          <TechnologiesClient title={t("title")} select={t("select")} />
         </div>
       </div>
     </section>
