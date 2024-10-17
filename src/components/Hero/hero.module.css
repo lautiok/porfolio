@@ -40,15 +40,15 @@
 .button {
   background-color: #000000;
   color: rgb(255, 255, 255);
-  padding: 0.5rem 2rem;
-  border-radius: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
   font-weight: 300;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .button:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .heroImg img {
