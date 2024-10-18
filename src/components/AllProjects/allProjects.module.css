@@ -28,14 +28,16 @@
   padding: 0.5rem 0;
   z-index: 10;
   display: flex;
+  gap: 0.5rem;
 }
 
 .filterButtons button {
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
   border: none;
   color: #4e4e4e;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  border: solid 1px #4e4e4e;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -43,6 +45,7 @@
 
 .filterButtons .active {
   color: #000;
+  border: solid 1px #000;
   font-weight: 700;
 }
 

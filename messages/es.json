@@ -3,7 +3,8 @@
     "home": "Inicio",
     "projects": "Proyectos",
     "blog": "Blog",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "filter": "Filtrar por"
   },
   "hero": {
     "title": "Hola, soy Nahuel Guerra",

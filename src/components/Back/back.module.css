@@ -5,6 +5,12 @@
   margin: 2rem 0;
 }
 
+.Back button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1280px) {
   .Back {
     width: 75%;

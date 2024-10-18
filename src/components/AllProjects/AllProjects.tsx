@@ -7,7 +7,6 @@ import dbEn from "../../db/projects-en.json";
 import { Link } from "@/navigation";
 import { useParams } from "next/navigation";
 import Card from "../card/Card";
-import Cards from "../cards/Cards";
 
 export default function AllProjects() {
   const { locale } = useParams();
