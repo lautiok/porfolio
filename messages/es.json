@@ -7,7 +7,7 @@
   },
   "hero": {
     "title": "Hola, soy Nahuel Guerra",
-    "description": "Desarrollador Full Stack en Argentina, con un foco en Frontend.",
+    "description": "Desarrollador FullStack con 1 año de experiencia en Argentina, con un foco en Frontend.",
     "btn": "Descargar CV"
   },
   "blog": {
@@ -16,16 +16,16 @@
   "workExperience": {
     "title": "Experiencia laboral",
     "hermanosluci": {
-      "title": "Codear",
+      "title": "Freelancer",
       "role": "Desarrollador Frontend",
-      "description": "Colaboré en la creación de sitios web, optimizando funcionalidad y experiencia de usuario con ReactJS y Next.js en una consultora web.",
-      "dates": "Mayo 2023"
+      "description": "Creo y optimizo sitios web con diseños modernos, mejorando UI/UX, SEO, seguridad y rendimiento para aumentar la taza de conversion y visitas.",
+      "dates": "Mayo 2023 - Actualidad"
     },
     "carlosaimar": {
       "title": "Carlos Aimar",
       "role": "Community Manager",
       "description": "Encargado de estrategias de comunicación en línea, gestión de contenido y campañas de marketing para las empresas",
-      "dates": "Septiembre 2022"
+      "dates": "Septiembre 2022 - Diciembre 2023"
     }
   },
   "education": {

@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
 import style from "./hero.module.css";
-import { Link } from "@/navigation";
 import { Linkedin, Github, Mail } from "lucide-react";
 export default function Hero() {
   const t = useTranslations("hero");

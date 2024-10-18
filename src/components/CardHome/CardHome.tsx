@@ -4,6 +4,7 @@ import dbEn from "../../db/projects-en.json";
 import dbEs from "../../db/projects_es.json";
 import { useParams } from "next/navigation";
 import Cards from "../cards/Cards";
+import Card from "../card/Card";
 
 export default function CardHome() {
   const { locale } = useParams();
