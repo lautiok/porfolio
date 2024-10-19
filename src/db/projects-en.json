@@ -142,6 +142,37 @@
           "image": "rentsale_dos.webp"
         }
       ]
+    },
+    {
+      "id": "florcitanails",
+      "title": "FlorcitaNails",
+      "description": "I developed the website for Florcita Nails, a nail beauty salon, using ReactJS and Next.js. The site showcases the latest services, includes an online booking section, displays the number of students received, and features a detailed services section. Additionally, I created a dedicated section for the academy, providing information about the courses offered. I also developed a platform to manage the courses, delivering a complete experience for both clients and students.",
+      "url": "https://florcitanails.vercel.app/",
+      "repository": "https://github.com/lautiok/florcitanails",
+      "category": "Frontend",
+      "techologies": ["Reactjs", "Nextjs", "Vercel"],
+      "images": [
+        {
+          "id": 1,
+          "image": "florcitanailss.webp"
+        },
+        {
+          "id": 2,
+          "image": "florcitanailss-dos.webp"
+        },
+        {
+          "id": 3,
+          "image": "florcitanailss-tres.webp"
+        },
+        {
+          "id": 4,
+          "image": "florcitanailss-cuatro.webp"
+        },
+        {
+          "id": 5,
+          "image": "florcitanailss-cinco.webp"
+        }
+      ]
     }
   ]
 }

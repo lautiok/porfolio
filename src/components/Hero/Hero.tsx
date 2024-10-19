@@ -12,7 +12,7 @@ export default function Hero() {
         <div className={style.heroBtn}>
           <a
             className={style.button}
-            href="https://drive.google.com/uc?export=download&id=1V4el4Yf3rD2_Fvj_ltp9ZETAIA9D9i-Y"
+            href="https://drive.google.com/uc?export=download&id=106JLybLX2v8B5xE0O6OtqsXW0tuwLWXq"
             aria-label="descargar cv"
           >
             {t("btn")}

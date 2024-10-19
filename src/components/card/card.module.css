@@ -27,10 +27,9 @@
 }
 
 .cards header p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: #fff;
-  background-color: #000;
+  color: #000000;
   padding: 0.5rem 1rem;
   border-radius: 20px;
 }
