@@ -10,6 +10,22 @@ export default async function BlogCard() {
   const res = await fetch(`${api}`);
   const data = await res.json();
 
+  if (!data.data) {
+    return (
+      <div>
+        <article className={style.skeletonBlogCard}>
+          <header>
+            <div className={`${style.title}`}></div>
+            <div className={`${style.date}`}></div>
+          </header>
+          <footer>
+            <div className={`${style.caption}`}></div>
+          </footer>
+        </article>
+      </div>
+    );
+  }
+
   const lastPost = data.data[0];
 
   return (

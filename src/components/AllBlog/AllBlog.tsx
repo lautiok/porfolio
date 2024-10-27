@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import CardBlog from "../CardBlog/CardBlog";
 import style from "./allblog.module.css";
 import AllBlogsSkeleton from "../AllBlogSkeleton/AllBlogSkeleton";
+import AllProjects from "../AllProjects/AllProjects";
 export default function AllBlog() {
   const [posts, setPosts] = useState([]);
   const [isloading, setIsLoading] = useState(true);
@@ -18,6 +19,10 @@ export default function AllBlog() {
     };
     fetchPosts();
   }, []);
+
+  if (!posts || posts.length === 0) {
+    return <div>No posts found</div>;
+  }
 
   return (
     <section className={style.allBlog}>

@@ -1,3 +1,5 @@
+/* blogCard.module.css */
+
 .blogCard {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,7 @@
 .blogCard:hover {
   transform: scale(1.01);
 }
+
 .blogCard header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +46,57 @@
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
+}
+
+/* Skeleton styles */
+.skeletonBlogCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 525px;
+  height: auto;
+  border-radius: 20px;
+  background-color: var(--colorPrimary);
+  padding: 2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(90deg, #ececec 25%, #f3f3f3 50%, #ececec 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeletonBlogCard > * {
+  background-color: #cfcfcf;
+  border-radius: 5px;
+}
+
+.skeletonBlogCard header .title {
+  width: 70%;
+  height: 20px;
+  margin-bottom: 0.5rem;
+  background-color: #cfcfcf;
+}
+
+.skeletonBlogCard header .date {
+  width: 30%;
+  height: 20px;
+  background-color: #cfcfcf;
+}
+
+.skeletonBlogCard footer .caption {
+  width: 100%;
+  height: 2rem;
+  background-color: #cfcfcf;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 @media screen and (max-width: 1105px) {
