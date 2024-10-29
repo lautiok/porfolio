@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import CardBlog from "../CardBlog/CardBlog";
 import style from "./allblog.module.css";
 import AllBlogsSkeleton from "../AllBlogSkeleton/AllBlogSkeleton";
-import AllProjects from "../AllProjects/AllProjects";
 export default function AllBlog() {
   const [posts, setPosts] = useState([]);
   const [isloading, setIsLoading] = useState(true);
+
   const api = process.env.NEXT_PUBLIC_API_BLOG;
 
   useEffect(() => {

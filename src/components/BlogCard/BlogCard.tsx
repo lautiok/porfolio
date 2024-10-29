@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 export default async function BlogCard() {
   const t = useTranslations("blog");
 
-  const api = process.env.API_BLOG;
+  const api = process.env.NEXT_PUBLIC_API_BLOG;
 
   const res = await fetch(`${api}`);
   const data = await res.json();
