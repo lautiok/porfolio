@@ -23,6 +23,7 @@ export default function AllBlog() {
   if (!posts || posts.length === 0) {
     return <div>No posts found</div>;
   }
+  
 
   return (
     <section className={style.allBlog}>
