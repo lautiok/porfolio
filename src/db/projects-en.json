@@ -158,19 +158,19 @@
         },
         {
           "id": 2,
-          "image": "florcitanailss-dos.webp"
-        },
-        {
-          "id": 5,
-          "image": "florcitanailss-cinco.webp"
+          "image": "florcitanailss-login.webp"
         },
         {
           "id": 3,
-          "image": "florcitanailss-tres.webp"
+          "image": "florcitanailss-certificados.webp"
         },
         {
           "id": 4,
-          "image": "florcitanailss-cuatro.webp"
+          "image": "florcitanailss-añadircertificado.webp"
+        },
+        {
+          "id": 5,
+          "image": "florcitanailss-certificado.webp"
         }
       ]
     }
