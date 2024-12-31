@@ -6,11 +6,16 @@ export default async function BlogCard() {
   const t = useTranslations("blog");
 
   const api = process.env.NEXT_PUBLIC_API_BLOG;
+  const IDBLOG = process.env.NEXT_PUBLIC_ID_BLOG;
 
-  const res = await fetch(`${api}`);
+  const res = await fetch(
+    `https://www.googleapis.com/blogger/v3/blogs/${IDBLOG}/posts?key=${api}`
+  );
   const data = await res.json();
 
-  if (!data.data) {
+  console.log("data", data);
+
+  if (!data || data.length === 0) {
     return (
       <div>
         <article className={style.skeletonBlogCard}>
@@ -26,7 +31,7 @@ export default async function BlogCard() {
     );
   }
 
-  const lastPost = data.data[0];
+  const lastPost = data.items[0];
 
   return (
     <Link href={`/blog`}>
@@ -36,7 +41,7 @@ export default async function BlogCard() {
           <p>Last Post</p>
         </header>
         <footer>
-          <p>{lastPost.caption.slice(0, 100) + "..."}</p>
+          <p>{lastPost.content.slice(0, 100) + "..."}</p>
         </footer>
       </article>
     </Link>

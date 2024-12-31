@@ -8,7 +8,6 @@ export default function TranslateButton() {
   const { locale } = useParams();
   const pathname = usePathname();
 
-  // Función para generar la URL con el idioma correcto
   const generateLocalePath = (newLocale: string) => {
     const segments = pathname.split("/");
     segments[1] = newLocale;

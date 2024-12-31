@@ -1,0 +1,59 @@
+.noItems {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.item {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.itemContainer {
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.itemHeader {
+  margin-bottom: 1rem;
+}
+
+.itemCategory p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.itemTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.itemAuthor {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.itemImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.itemContent {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.itemFecha {
+  font-size: 0.9rem;
+  color: #999;
+  text-align: right;
+}
+
+@media screen and (max-width: 430px) {
+  .item {
+    background-color: transparent;
+  }
+}

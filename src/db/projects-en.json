@@ -76,30 +76,22 @@
       ]
     },
     {
-      "id": "buenosamigos",
-      "title": "Buenos Amigos",
-      "description": "I have developed a project for a coffee shop using ReactJS, which allows to display the stock of drinks through an integration with a Rest API. I implemented Axios to make requests to the API, React Router DOM to manage navigation between pages, and React Helmet to optimize SEO and manage metadata. In addition, Bootstrap was used for responsive design and an attractive interface, providing an intuitive and modern user experience.",
-      "url": "https://coffe-wheat.vercel.app/",
-      "repository": "https://github.com/lautiok/coffe",
+      "id": "arch",
+      "title": "Arch Architecture",
+      "description": "I developed the Arch website, a portal about modern architecture and interior design, using ReactJS, Next.js and TypeScript. The site includes an interactive portfolio of featured projects, designed with a minimalist and modern approach, optimizing the user experience on any device. I implemented a reliable deployment with Vercel, ensuring smooth and scalable performance. This project reflects my passion for combining technology and design to create impactful and functional solutions.",
+      "url": "https://arch-plum.vercel.app/",
+      "repository": "https://github.com/lautiok/arch",
       "category": "Frontend",
-      "techologies": ["React", "Vercel"],
+      "techologies": ["Typescript", "React", "Nextjs", "Vercel"],
       "color": "#9A7D5F",
       "images": [
         {
           "id": 1,
-          "image": "buenosamigos.webp"
+          "image": "arch.webp"
         },
         {
           "id": 2,
-          "image": "buenosamigos_dos.webp"
-        },
-        {
-          "id": 3,
-          "image": "buenosamigos_tres.webp"
-        },
-        {
-          "id": 4,
-          "image": "buenosamigos_cuatro.webp"
+          "image": "arch_uno.webp"
         }
       ]
     },

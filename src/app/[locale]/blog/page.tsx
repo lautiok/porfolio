@@ -2,7 +2,7 @@ import AllBlog from "@/components/AllBlog/AllBlog";
 import styles from "./page.module.css";
 import { metadata } from "../layout";
 import Back from "@/components/Back/Back";
-import { useTranslations } from "next-intl";
+import BlogItems from "@/components/BlogItems/BlogItems";
 
 export default async function Page() {
   metadata.title = "Nahuel Guerra - Blog";
