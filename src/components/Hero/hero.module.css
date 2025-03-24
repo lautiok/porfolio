@@ -17,8 +17,8 @@
     rgba(222, 213, 203, 1) 42%,
     rgba(154, 125, 95, 1) 90%
   );
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   padding-bottom: 1.5rem;
   border-radius: 1rem;
   width: 660px;
@@ -138,6 +138,7 @@
 @media screen and (max-width: 390px) {
   .heroContent {
     width: 340px;
+      height: 280px;
   }
 
   .heroImg img {
