@@ -41,7 +41,7 @@ export default async function BlogCard() {
           <p>Last Post</p>
         </header>
         <footer>
-          <p>{lastPost.content.slice(0, 100) + "..."}</p>
+          <p>{lastPost.title.slice(0, 100) + "..."}</p>
         </footer>
       </article>
     </Link>
