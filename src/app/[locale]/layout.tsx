@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nahuel Guerra - Developer Full Stack & Designer",
-  description: "Nahuel Guerra - Developer Full Stack & Designer",
 };
 
 export default function LocaleLayout({
