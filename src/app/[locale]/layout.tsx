@@ -17,7 +17,7 @@ export default function LocaleLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  metadata.title = "Nahuel Guerra - Developer Full Stack & Designer";
+  
   return (
     <html lang="en">
       <head>
