@@ -17,7 +17,6 @@ export default function LocaleLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
   return (
     <html lang="en">
       <head>
@@ -43,6 +42,19 @@ export default function LocaleLayout({
           content="https://www.nahuelguerra.com.ar/foto-principal-lik.webp"
         />
 
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Nahuel Guerra - Developer Full Stack & Designer"
+        />
+        <meta
+          name="twitter:description"
+          content="Nahuel Guerra, +2 years of experience in the software development sector. From Buenos Aires, Argentina. Specialized in frontend and backend."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.nahuelguerra.com.ar/foto-principal-lik.webp"
+        />
         <link rel="canonical" href="https://nahuelguerra.com.ar" />
       </head>
       <script
