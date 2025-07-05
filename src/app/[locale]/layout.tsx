@@ -45,6 +45,31 @@ export default function LocaleLayout({
 
         <link rel="canonical" href="https://nahuelguerra.com.ar" />
       </head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Nahuel Guerra",
+            jobTitle: "Full Stack Developer & Designer",
+            url: "https://www.nahuelguerra.com.ar",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Buenos Aires",
+              addressCountry: "Argentina",
+            },
+            sameAs: [
+              "https://www.linkedin.com/in/nahuel-guerra/",
+              "https://github.com/lautiok",
+            ],
+            worksFor: {
+              "@type": "Organization",
+              name: "Freelance",
+            },
+          }),
+        }}
+      />
       <body className={inter.className}>
         <Header />
         {children}
