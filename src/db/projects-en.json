@@ -48,34 +48,6 @@
       ]
     },
     {
-      "id": "codear",
-      "title": "Codear",
-      "description": "I developed Codear Marketing using ReactJS to offer an innovative and attractive presentation of services and mission, improving the user experience. I implemented React Router DOM for fluid navigation, React Helmet Async for metadata management and SEO, and React Transition Group to create smooth transitions between the different sections of the website. This allows for a dynamic interface, optimized for digital marketing and aimed at improving brand visibility and presentation.",
-      "url": "https://www.codear.ar/",
-      "repository": "https://github.com/lautiok/codear",
-      "category": "Frontend",
-      "techologies": ["React", "Vercel"],
-      "color": "#9A7D5F",
-      "images": [
-        {
-          "id": 1,
-          "image": "codear.webp"
-        },
-        {
-          "id": 2,
-          "image": "codear_dos.webp"
-        },
-        {
-          "id": 3,
-          "image": "codear_tres.webp"
-        },
-        {
-          "id": 4,
-          "image": "codear_cuatro.webp"
-        }
-      ]
-    },
-    {
       "id": "arch",
       "title": "Arch Architecture",
       "description": "I developed the Arch website, a portal about modern architecture and interior design, using ReactJS, Next.js and TypeScript. The site includes an interactive portfolio of featured projects, designed with a minimalist and modern approach, optimizing the user experience on any device. I implemented a reliable deployment with Vercel, ensuring smooth and scalable performance. This project reflects my passion for combining technology and design to create impactful and functional solutions.",
@@ -138,11 +110,11 @@
     {
       "id": "florcitanails",
       "title": "FlorcitaNails",
-      "description": "I developed the website for Florcita Nails, a nail beauty salon, using ReactJS and Next.js. The site showcases the latest services, includes an online booking section, displays the number of students received, and features a detailed services section. Additionally, I created a dedicated section for the academy, providing information about the courses offered. I also developed a platform to manage the courses, delivering a complete experience for both clients and students.",
+      "description": "I developed a complete platform for Florcita Nails using ReactJS, Next.js, and Node.js, with PostgreSQL and Prisma for data management. The system includes an informative website, online booking, student statistics, and an academic section with fully managed virtual courses. Each course consists of chapters with video lessons and exams, and automatically generates personalized certificates with a verifiable QR code. I also integrated MercadoPago as the payment gateway and built an internal dashboard to manage enrollments, students, and course content.",
       "url": "https://florcitanails.vercel.app/",
       "repository": "https://github.com/lautiok/florcitanails",
       "category": "Frontend",
-      "techologies": ["Reactjs", "Nextjs", "Vercel"],
+      "techologies": ["Reactjs", "Nextjs", "PostgreSQL", "Prisma"],
       "images": [
         {
           "id": 1,
@@ -163,6 +135,32 @@
         {
           "id": 5,
           "image": "florcitanailss-certificado.webp"
+        }
+      ]
+    },
+    {
+      "id": "intercambia",
+      "title": "Intercambia",
+      "description": "I developed Intercambia, a web platform built with Next.js, Express, and MongoDB, designed to facilitate book exchanges among students within educational institutions. Users register based on their school, list available books, and create exchange requests with other students. Once both parties accept, a real-time chat powered by Socket.io is enabled to coordinate the handoff. After completing the exchange, users confirm it through the platform, marking the process as finished. The application handles authentication, matching logic, and exchange tracking in a secure and efficient way.",
+      "repository": "https://github.com/lautiok/intercambio",
+      "category": "Frontend",
+      "techologies": ["Nextjs", "Express", "MongoDB", "Socket.io"],
+      "images": [
+        {
+          "id": 1,
+          "image": "intercambia.webp"
+        },
+        {
+          "id": 2,
+          "image": "intercambia_dos.webp"
+        },
+        {
+          "id": 3,
+          "image": "intercambia_tres.webp"
+        },
+        {
+          "id": 4,
+          "image": "intercambia_cuatro.webp"
         }
       ]
     }
